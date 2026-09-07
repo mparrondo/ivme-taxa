@@ -1,0 +1,35 @@
+variable_name,description,type,allowed_format,missing_values
+voucher_id,survey-specific identification code assigned to the voucher specimen,character,alphanumeric identifier,NA
+haul,survey haul from which the sample was obtained,integer,positive integer,NA
+strata,survey stratum in which the sample was obtained,integer,positive integer,NA
+tax,taxonomic identification assigned on board,character,taxonomic name,NA
+tax_phylum,phylum corresponding to the on board taxonomic identification (tax),character,taxonomic name,NA
+tax_class,class corresponding to the on board taxonomic identification (tax),character,taxonomic name,NA
+tax_order,order corresponding to the on board taxonomic identification (tax),character,taxonomic name,NA
+tax_family,family corresponding to the on board taxonomic identification (tax),character,taxonomic name,NA
+tax_genus,genus correspondig to the on board taxonomic identification (tax),character,taxonomic name,NA
+tax_species,species corresponding to the on board taxonomic identification (tax),character,taxonomic name,NA
+pre_taxid,taxonomic identification number (TaxID) corresponding to the taxonomic identification assigned on board (tax),integer,valid NCBI TaxID,NA
+gb_coi,indicates whether COI sequences for the organism are available in GenBank,factor,"No: 0, Yes:1, Low Taxonomic Resolution: LTR",NA
+bold_coi,indicates whether COI sequences for the organism are available in BOLD,factor,"No: 0, Yes:1, Low Taxonomic Resolution: LTR",NA
+gb_16s,indicates whether 16S sequences for the organism are avialable in GenBank,factor,"No: 0, Yes:1, Low Taxonomic Resolution: LTR",NA
+blast_coi_id,molecular identification obtained from comparison against the GenBank database using the COI marker,character,taxonomic name,NA
+blast_coi_ap,percentage assignment associated with the molecular identification obtained from the GenBank database using the COI marker,numeric,0-100,NA
+bold_coi_id,molecular identification obtained from comparison against the BOLD database using the COI marker,character,taxonomic name,NA
+bold_coi_ap,percentage assignment associated with the molecular identification obtained from the BOLD database using the COI marker,numeric,0-100,NA
+blast_16s_id,molecular identification obtained from the comparison against the GenBank database using the 16S marker,character,taxonomic name,NA
+blast_16s_ap,percentage assignment associated with the molecular identification obtained from the GenBank database using the 16S marker,numeric,0-100,NA
+rev_tax,revised taxonomic identification assigned following expert review of the original taxonomic classification,character,taxonomic name,NA
+final_tax_phylum,phylum corresponding to the final taxonomic identification (final_tax),character,taxonomic name,NA
+final_tax_class,class corresponding to the final taxonomic identification (final_tax),character,taxonomic name,NA
+final_tax_order,order corresponding to the final taxonomic identification (final_tax),character,taxonomic name,NA
+final_tax_family,family corresponding to the final taxonomic identification (final_tax),character,taxonomic name,NA
+final_tax_genus,genus correspondig to the final taxonomic identification (final_tax),character,taxonomic name,NA
+final_tax,final taxonomic identification assigned to the organism after integrating all available evidence,character,taxonomic name,NA
+final_taxid,taxonomic identification number (TaxID) corresponding to the final taxonomic identification (final_tax),integer,valid NCBI TaxID,NA
+bin,Barcode Index Number (BIN) assigned to the COI sequence in BOLD,character,BOLD BIN identifier,NA
+bin_congruence,"congruence between the taxonomic identification and the BIN assignment, classified as concordant, discordant, multiple, or no_bin",factor,"concordant, discordant, multiple_bin, no_bin, unmatched",NA
+evidence,"type of evidence supporting the final taxonomic identification, including morphological, genetic, biogeographic evidence, or a combination of these sources",factor,"morphology, genetics, biogeography, multiple",NA
+accession_coi,public accession number assigned to the COI sequence generated in this study and deposited in ENA/GenBank,character,valid ENA/GenBank accession number,NA
+accession_16s,public accession number assigned to the 16S sequence generated in this study and deposited in ENA/GenBank,character,valid ENA/GenBank accession number,NA
+bold_process_id,BOLD identifier associated with the voucher sample,character,valid BOLD Process identifier,NA

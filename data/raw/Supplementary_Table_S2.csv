@@ -1,0 +1,2692 @@
+"Table S2. Structure and description of the epibenthic invertebrate dataset collected during the 2022 European Union Flemish Cap bottom-trawl survey. Trawl identifies the sampling haul; Lowest_Taxon indicates the lowest taxonomic level to which the organism was identified; Number represents the number of individuals recorded; and Weight represents the total wet weight (kg). For colonial taxa, abundance was recorded as one colony per record (number = 1), and Weight corresponds to the wet weight of the entire colony.",,,
+Trawl,Lowest_Taxon,Weight,Number
+1,Pasiphaea,432,14
+1,Acanthephyra pelag,103,19
+1,Acanthephyra purpu,44,7
+1,Acanthephyra,28,3
+1,Gnathophausia zoea,7,2
+1,Polycheles nanus,9,1
+1,Dumbo octopus,2280,1
+1,Mediaster bairdi,11,2
+1,Echinasteridae,3,1
+1,Phormosoma placent,75,5
+1,Anthoptilum,9,1
+1,Atollidae,4635,54
+1,Periphyllidae,2350,5
+1,Stryphnus sp.,404,1
+1,Sponges,1038,1
+2,Acanthephyra pelag,85,13
+2,Acanthephyra purpu,23,4
+2,Acanthephyra,10,2
+2,Pasiphaea,245,9
+2,Zoroaster fulgens,75,2
+2,Phormosoma placent,664,36
+2,Hormathiidae,153,1
+2,Halipteris finmarc,21,1
+2,Atollidae,4735,50
+2,Periphyllidae,1420,2
+2,Sponges,59,NA
+3,Pasiphaea,606,23
+3,Acanthephyra pelag,403,57
+3,Parapasiphae sulca,6,1
+3,Acanthephyra purpu,23,3
+3,Acanthephyra,209,34
+3,Gnathophausia zoea,5,4
+3,Polycheles nanus,13,1
+3,Phormosoma placent,88,7
+3,Anthoptilum,42,1
+3,Funiculina quadran,9,1
+3,Atollidae,6240,61
+3,Periphyllidae,2600,2
+4,Pasiphaea,124,5
+4,Parapasiphae sulca,4,1
+4,Acanthephyra pelag,92,12
+4,Acanthephyra purpu,23,3
+4,Acanthephyra,17,2
+4,Gnathophausia zoea,2,1
+4,Neolithodes grimal,1605,2
+4,Polycheles nanus,26,3
+4,Dumbo octopus,1625,1
+4,Bivalves,4,1
+4,Bathybiaster vexil,46,1
+4,Mediaster bairdi,9,1
+4,Phormosoma placent,451,27
+4,Anthoptilum,54,4
+4,Atollidae,5800,61
+4,Didemnidae,11,1
+4,Sponges,4870,NA
+4,Stryphnus sp.,1234,3
+4,Geodiidae,4699,1
+5,Gonatus fabricii,25,2
+5,Pasiphaea,70,3
+5,Acanthephyra pelag,75,11
+5,Acanthephyra purpu,16,3
+5,Acanthephyra,4,1
+5,Pasiphaea,70,3
+5,Sergestes arcticus,2,1
+5,Polychelidae,2,1
+5,Atollidae,4950,53
+5,Periphyllidae,1580,7
+5,Sponges,9,1
+6,Acanthephyra pelag,89,13
+6,Acanthephyra purpu,48,6
+6,Acanthephyra,21,3
+6,Benthesicymus bart,9,1
+6,Parapasiphae sulca,27,6
+6,Pasiphaea,147,5
+6,Polycheles nanus,13,1
+6,Sergestes arcticus,3,1
+6,Cirripeda,6,1
+6,Polychelidae,2,1
+6,Chiroteuthis veran,199,1
+6,Colus,82,1
+6,Phormosoma placent,125,10
+6,Heteropolypus,7,1
+6,Halipteris finmarc,14,1
+6,Atollidae,6570,66
+6,Periphyllidae,4530,9
+7,Gonatus fabricii,75,2
+7,Pasiphaea,296,14
+7,Acanthephyra pelag,154,22
+7,Parapasiphae sulca,110,28
+7,Acanthephyra purpu,44,6
+7,Acanthephyra,23,3
+7,Gnathophausia zoea,29,19
+7,Polycheles nanus,26,5
+7,Bathybiaster vexil,43,1
+7,Phormosoma placent,257,18
+7,Sea anemones,1266,2
+7,Heteropolypus,140,57
+7,Duva florida,10,2
+7,Acanella arbuscula,4,1
+7,Anthoptilum,253,30
+7,Funiculina quadran,36,16
+7,Halipteris finmarc,229,13
+7,Flabellum,20,2
+7,Jellyfish,185,NA
+7,Atollidae,5900,59
+7,Periphyllidae,4150,6
+7,Sponges,18,1
+8,Pasiphaea,48,2
+8,Acanthephyra pelag,108,16
+8,Parapasiphae sulca,51,10
+8,Acanthephyra,36,7
+8,Gnathophausia zoea,4,5
+8,Polycheles nanus,6,1
+8,Pontophilus norveg,2,1
+8,Sergestes arcticus,2,1
+8,Euphausiacea,1,1
+8,Eucopia sculpticau,1,1
+8,Globito,5,1
+8,Astarte,3,1
+8,Mediaster bairdi,17,1
+8,Zoroaster fulgens,18,1
+8,Phormosoma placent,370,32
+8,Actinoscyphia,2258,2
+8,Heteropolypus,59,41
+8,Duva florida,14,1
+8,Distichoptilum,4,1
+8,Funiculina quadran,5,2
+8,Halipteris finmarc,90,6
+8,Flabellum,19,1
+8,Atollidae,4080,46
+8,Periphyllidae,5190,8
+9,Pasiphaea,97,5
+9,Acanthephyra pelag,55,8
+9,Parapasiphae sulca,26,5
+9,Acanthephyra purpu,30,4
+9,Gnathophausia zoea,2,1
+9,Pandalus propinquu,3,1
+9,Polycheles nanus,39,8
+9,Pontophilus norveg,3,1
+9,Sergestes arcticus,2,1
+9,Sergia robusta,1,1
+9,Mediaster bairdi,15,1
+9,Zoroaster fulgens,82,1
+9,Phormosoma placent,226,20
+9,Heteropolypus,4,3
+9,Anthoptilum,9,1
+9,Halipteris finmarc,10,1
+9,Atollidae,2780,26
+9,Periphyllidae,2830,7
+9,Terebratulina sept,2,1
+9,Stryphnus sp.,103,1
+10,Pasiphaea,173,9
+10,Acanthephyra pelag,44,6
+10,Parapasiphae sulca,7,2
+10,Acanthephyra,15,3
+10,Gnathophausia zoea,4,3
+10,Polycheles nanus,21,4
+10,Sergestes arcticus,2,1
+10,Cephalopod,91,1
+10,Teuthowenia megalo,24,1
+10,Dumbo octopus,2450,1
+10,Astarte,3,3
+10,Mediaster bairdi,3,1
+10,Ophiomusium lymani,7,1
+10,Phormosoma placent,50,6
+10,Echinothuriidae,392,1
+10,Heteropolypus,2,2
+10,Anthoptilum,10,1
+10,Funiculina quadran,6,1
+10,Halipteris finmarc,23,2
+10,Atollidae,2450,23
+10,Periphyllidae,2560,4
+11,Pasiphaea,86,3
+11,Acanthephyra pelag,94,14
+11,Parapasiphae sulca,3,1
+11,Acanthephyra purpu,43,5
+11,Acanthephyra,24,5
+11,Benthesicymus bart,17,1
+11,Cirripeda,2,18
+11,Gnathophausia zoea,7,4
+11,Pandalus propinquu,6,2
+11,Polycheles nanus,34,11
+11,Sergestes arcticus,4,2
+11,Ophiomusium lymani,22,7
+11,Brittle star,3,8
+11,Phormosoma placent,548,32
+11,Echinothuriidae,610,4
+11,Nephtheidae,4,1
+11,Acanthogorgia,79,1
+11,Atollidae,4060,55
+11,Periphyllidae,7680,9
+11,Polychaetes,14,12
+11,Didemnidae,49,4
+11,Sponges,97,2
+11,Stryphnus sp.,1715,2
+11,Sponges,1268,11
+11,Geodiidae,405330,160
+12,Acanthephyra pelag,132,19
+12,Acanthephyra purpu,19,3
+12,Acanthephyra,20,4
+12,Benthesicymus bart,54,3
+12,Gnathophausia zoea,7,5
+12,Parapasiphae sulca,9,2
+12,Pasiphaea,48,1
+12,Polycheles nanus,12,4
+12,Sergestes arcticus,5,2
+12,Hippasteria phrygi,130,1
+12,Phormosoma placent,492,23
+12,Echinothuriidae,251,3
+12,Atollidae,4830,43
+12,Periphyllidae,2120,7
+13,Gonatus fabricii,10,1
+13,Pasiphaea,197,8
+13,Acanthephyra pelag,54,8
+13,Parapasiphae sulca,3,1
+13,Acanthephyra,18,3
+13,Gnathophausia zoea,3,1
+13,Polycheles nanus,7,1
+13,Stereomastis sculp,23,1
+13,Bathybiaster vexil,40,1
+13,Ophiomusium lymani,6,1
+13,Phormosoma placent,107,9
+13,Halipteris finmarc,34,1
+13,Atollidae,3810,42
+13,Periphyllidae,5490,10
+13,Polychaetes,1,1
+13,Sponges,3,NA
+14,Pasiphaea,62,2
+14,Acanthephyra pelag,92,13
+14,Parapasiphae sulca,8,2
+14,Acanthephyra purpu,31,5
+14,Acanthephyra,4,1
+14,Gnathophausia zoea,5,2
+14,Polycheles nanus,65,11
+14,Stereomastis sculp,28,2
+14,Sergestes arcticus,2,1
+14,Dumbo octopus,963,1
+14,Zoroaster fulgens,84,3
+14,Ophiomusium lymani,12,4
+14,Phormosoma placent,216,15
+14,Echinothuriidae,264,2
+14,Anthoptilum,17,2
+14,Atollidae,5480,61
+14,Periphyllidae,7110,11
+14,Colossendeidae,1,2
+15,Acanthephyra pelag,58,9
+15,Acanthephyra,21,3
+15,Gnathophausia zoea,6,3
+15,Pasiphaea,84,3
+15,Polycheles nanus,25,3
+15,Sergestes arcticus,2,1
+15,Gonatus fabricii,10,1
+15,Asteronyx loveni,4,1
+15,Ophiomusium lymani,33,9
+15,Phormosoma placent,49,4
+15,Echinothuriidae,156,2
+15,stephanauge nexili,1,1
+15,Radicipes,2,4
+15,Anthoptilum,14,2
+15,Funiculina quadran,15,2
+15,Jellyfish,3050,1
+15,Atollidae,6100,67
+15,Periphyllidae,9650,11
+16,Pasiphaea,230,8
+16,Acanthephyra pelag,60,9
+16,Acanthephyra,12,2
+16,Ephyrina,12,1
+16,Gnathophausia zoea,1,1
+16,Pasiphaea multiden,4,1
+16,Polycheles nanus,20,3
+16,Mediaster bairdi,47,4
+16,Ophiomusium lymani,15,2
+16,Phormosoma placent,477,35
+16,Sea anemones,1628,1
+16,Funiculina quadran,5,1
+16,Atollidae,5250,47
+16,Periphyllidae,6610,5
+17,Pasiphaea,76,3
+17,Acanthephyra pelag,256,42
+17,Acanthephyra purpu,44,6
+17,Acanthephyra,25,6
+17,Pontophilus norveg,2,1
+17,Sergestes arcticus,4,2
+17,Notostomus,26,1
+17,Echinasteridae,5,1
+17,Mediaster bairdi,13,2
+17,Psilaster andromed,11,1
+17,Phormosoma placent,224,34
+17,Hormathiidae,265,4
+17,Sea anemones,36,1
+17,stephanauge nexili,10,1
+17,Heteropolypus,42,16
+17,Nephtheidae,4,1
+17,Funiculina quadran,4,1
+17,Halipteris finmarc,162,7
+17,Flabellum,83,11
+17,Atollidae,3860,36
+17,Periphyllidae,2800,6
+18,Pasiphaea,49,2
+18,Acanthephyra pelag,141,20
+18,Parapasiphae sulca,4,1
+18,Acanthephyra purpu,22,4
+18,Gnathophausia zoea,2,2
+18,Polycheles nanus,6,2
+18,Pontophilus norveg,3,2
+18,Sergestes arcticus,2,1
+18,Mediaster bairdi,6,1
+18,Phormosoma placent,122,21
+18,Hormathiidae,236,2
+18,Nephtheidae,17,6
+18,Flabellum,9,1
+18,Atollidae,5400,57
+18,Periphyllidae,346,8
+18,Stryphnus sp.,84,1
+18,Sponges,4,NA
+18,Geodiidae,9220,3
+19,Pasiphaea,32,1
+19,Acanthephyra pelag,46,7
+19,Parapasiphae sulca,20,3
+19,Acanthephyra purpu,7,1
+19,Acanthephyra,17,3
+19,Gnathophausia zoea,4,1
+19,Polycheles nanus,27,4
+19,Teuthowenia megalo,33,1
+19,Dumbo octopus,1574,1
+19,Phormosoma placent,39,6
+19,Anthoptilum,30,2
+19,Funiculina quadran,3,1
+19,Atollidae,5000,47
+19,Periphyllidae,3730,4
+19,Geodiidae,3920,2
+20,Pasiphaea,415,29
+20,Acanthephyra pelag,223,34
+20,Acanthephyra,52,7
+20,Pontophilus norveg,7,2
+20,Phormosoma placent,200,9
+20,Heteropolypus,6,2
+20,Duva florida,234,7
+20,Funiculina quadran,9,3
+20,Halipteris finmarc,13,1
+20,Flabellum,63,10
+20,Atollidae,1620,22
+20,Periphyllidae,2620,2
+21,Crustacean,177,24
+21,Acanthephyra purpu,74,10
+21,Acanthephyra,20,3
+21,Gnathophausia zoea,3,2
+21,Pasiphaea,204,18
+21,Polycheles nanus,4,1
+21,Sabinea hystrix,6,1
+21,Gonatus fabricii,14,1
+21,Phormosoma placent,160,13
+21,stephanauge nexili,52,1
+21,Duva florida,56,4
+21,Anthoptilum,35,1
+21,Funiculina quadran,5,2
+21,Halipteris finmarc,20,1
+21,Flabellum,32,3
+21,Atollidae,1340,14
+21,Periphyllidae,7540,11
+22,Gonatus fabricii,13,1
+22,Pasiphaea,518,45
+22,Acanthephyra pelag,50,8
+22,Acanthephyra purpu,4,1
+22,Acanthephyra,10,2
+22,Plesiopenaeus,80,1
+22,Northern shrimp,1149,102
+22,Phormosoma placent,9,2
+22,Heteropolypus,75,15
+22,Halipteris finmarc,22,1
+22,Flabellum,73,16
+22,Sponges,3,NA
+23,Gonatus fabricii,28,1
+23,Pasiphaea,529,35
+23,Acanthephyra pelag,137,28
+23,Acanthephyra purpu,11,2
+23,Acanthephyra,22,4
+23,Polycheles nanus,7,2
+23,Sergestes arcticus,3,1
+23,Northern shrimp,821,98
+23,Phormosoma placent,217,21
+23,Heteropolypus,38,6
+23,Halipteris finmarc,15,1
+23,Flabellum,52,7
+23,Stauropathes arcti,2,1
+23,Atollidae,5330,53
+23,Periphyllidae,5400,7
+23,Ascidia,5,1
+24,Pasiphaea,242,12
+24,Acanthephyra pelag,70,11
+24,Parapasiphae sulca,3,1
+24,Acanthephyra purpu,19,2
+24,Acanthephyra,27,5
+24,Gnathophausia zoea,2,1
+24,Northern shrimp,26,4
+24,Gonatus fabricii,31,1
+24,Astarte,2,1
+24,Mediaster bairdi,4,1
+24,Ophiomusium lymani,8,1
+24,Phormosoma placent,88,5
+24,Sea anemones,224,1
+24,Nephtheidae,2,1
+24,Anthoptilum,6,1
+24,Funiculina quadran,3,1
+24,Atollidae,4530,46
+24,Periphyllidae,3210,5
+24,Didemnidae,110,7
+24,Sponges,2770,NA
+24,Polymastiidae,70,2
+24,Geodiidae,12680,18
+24,Stryphnus sp.,764,4
+24,Tentorium,2,1
+24,Sponges,118,NA
+24,Crinoid,2,3
+25,Acanthephyra pelag,85,13
+25,Acanthephyra purpu,32,5
+25,Acanthephyra,36,5
+25,Gnathophausia zoea,4,2
+25,Pasiphaea,820,32
+25,Sergestes arcticus,2,1
+25,Bathybiaster vexil,17,1
+25,Phormosoma placent,470,33
+25,Halipteris finmarc,23,2
+25,Flabellum,21,2
+25,Atollidae,4680,54
+25,Periphyllidae,4700,6
+25,Sponges,20,2
+25,Northern shrimp,12,2
+26,Gonatus fabricii,2,1
+26,Pasiphaea,284,14
+26,Acanthephyra pelag,973,151
+26,Parapasiphae sulca,2,1
+26,Northern shrimp,191,15
+26,Acanthephyra purpu,155,21
+26,Acanthephyra,492,81
+26,Sergestes arcticus,1,1
+26,Phormosoma placent,162,13
+26,Hormathiidae,44,1
+26,Heteropolypus,11,2
+26,Halipteris finmarc,58,3
+26,Flabellum,3,1
+26,Atollidae,13870,156
+26,Periphyllidae,2920,5
+27,Pasiphaea,340,19
+27,Acanthephyra pelag,1717,249
+27,Parapasiphae sulca,9,2
+27,Northern shrimp,471,36
+27,Acanthephyra purpu,255,38
+27,Acanthephyra,728,115
+27,Gnathophausia zoea,1,1
+27,Pontophilus norveg,2,1
+27,Pterasteridae,110,1
+27,Phormosoma placent,128,16
+27,Hormathiidae,33,2
+27,Halipteris finmarc,8,1
+27,Flabellum,32,6
+27,Stauropathes arcti,6,1
+27,Atollidae,1800,22
+27,Periphyllidae,2320,4
+27,Sponges,160,NA
+28,Gonatus fabricii,15,1
+28,Pasiphaea,610,91
+28,Acanthephyra pelag,86,13
+28,Myctophum punctatu,6,1
+28,Acanthephyra purpu,78,12
+28,Acanthephyra,20,3
+28,Gnathophausia zoea,3,2
+28,Pontophilus norveg,2,1
+28,Sergestes arcticus,2,1
+28,Sergia robusta,3,1
+28,Northern shrimp,2188,174
+28,Brittle star,3,1
+28,Phormosoma placent,4,1
+28,Hormathiidae,45,2
+28,Heteropolypus,302,158
+28,Radicipes,2,1
+28,Funiculina quadran,6,2
+28,Flabellum,6,3
+28,Atollidae,5640,64
+28,Periphyllidae,7950,12
+28,Sponges,15,NA
+29,Northern shrimp,1740,107
+29,Gonatus fabricii,13,2
+29,Acanthephyra pelag,4,1
+29,Myctophum punctatu,37,3
+29,Sergestes arcticus,100,66
+29,Sergia robusta,2,1
+29,Buccinum,6,1
+29,Brittle star,1,1
+29,Phormosoma placent,2,1
+29,Sea anemones,490,2
+29,Hormathiidae,439,2
+29,Heteropolypus,4,4
+29,Halipteris finmarc,16,1
+29,Atollidae,480,3
+29,Sabellidae,2,2
+29,Pycnogonida,1,2
+29,Sponges,2,NA
+30,Northern shrimp,4600,269
+30,Gonatus fabricii,40,1
+30,Myctophum punctatu,685,85
+30,Neptunea despecta,3,1
+30,Echinasteridae,7,2
+30,Leptychaster artic,1,1
+30,Ophiopholis,2,2
+30,Sea anemones,409,3
+30,Hormathiidae,110,15
+30,Anthoptilum,51,2
+30,Periphyllidae,6870,13
+30,Polynoidae,1,1
+30,Ascidia,13,1
+30,Sponges,1110,NA
+31,Northern shrimp,4400,320
+31,Gonatus fabricii,78,6
+31,Myctophum punctatu,19,3
+31,Pasiphaea,43,5
+31,Lebbeus polaris,3,1
+31,Snow crab,343,1
+31,Sergestes arcticus,12,8
+31,Sergia robusta,12,4
+31,Crustacean,5,1
+31,Euphausiacea,1,1
+31,Psilaster andromed,20,2
+31,Pterasteridae,8,1
+31,Echinasteridae,3,2
+31,Poraniidae,3,1
+31,Asteronyx loveni,2,1
+31,Ophiopholis,8,5
+31,Homophiura,2,1
+31,Brittle star,2,1
+31,Brisaster fragilis,8,2
+31,Phormosoma placent,19,1
+31,Sea anemones,2,1
+31,Hormathiidae,99,1
+31,Heteropolypus,14,2
+31,Duva florida,2527,136
+31,Nephtheidae,4,1
+31,Radicipes,10,7
+31,Isididae,318,NA
+31,Anthoptilum,48,4
+31,Funiculina quadran,2,1
+31,Halipteris finmarc,68,1
+31,Flabellum,35,4
+31,Stauropathes arcti,92,1
+31,Atollidae,890,9
+31,Periphyllidae,4190,5
+31,Polychaetes,2,2
+31,Didemnidae,7,1
+31,Terebratulina sept,16,8
+31,Polymastiidae,380,2
+31,Sponges,2587,NA
+32,Northern shrimp,1180,121
+32,Myctophum punctatu,404,52
+32,Brittle star,2,1
+32,Hormathiidae,195,18
+32,Duva florida,342,15
+32,Anthoptilum,35,1
+32,Periphyllidae,12460,11
+32,Ascidia,9,1
+32,Sponges,129,NA
+33,Northern shrimp,254,31
+33,Pandalus (sobrecop,5,1
+33,Gonatus fabricii,4,1
+33,Leptychaster artic,2,1
+33,Hormathiidae,108,6
+33,Heteropolypus,1,1
+33,Duva florida,38,1
+33,Anthoptilum,7,1
+33,Periphyllidae,11740,10
+34,Pandalus (sobrecop,2,1
+34,Leptychaster artic,2,1
+34,Sea anemones,530,1
+34,Hormathiidae,84,3
+34,Duva florida,19,1
+34,Anthoptilum,69,1
+34,Periphyllidae,2010,3
+35,Northern shrimp,615,78
+35,Ceramaster,19,2
+35,Hormathiidae,14,1
+35,Anthoptilum,49,1
+35,Periphyllidae,15750,22
+35,Sponges,49,3
+36,Pandalus (sobrecop,22,4
+36,Myctophum punctatu,9,1
+36,Northern shrimp,1680,99
+36,Leptychaster artic,4,1
+36,Plutonaster agassi,14,1
+36,Ophiopholis,3,1
+36,Hormathiidae,23,5
+36,Sea anemones,86,1
+36,Duva florida,67,2
+36,Periphyllidae,6750,7
+36,Sponges,40,NA
+37,Northern shrimp,583,53
+37,Sergestes arcticus,4,2
+37,Hippasteria phrygi,485,1
+37,Brittle star,1,1
+37,Hormathiidae,562,3
+37,Flabellum,10,1
+37,Atollidae,12,1
+37,Periphyllidae,4260,4
+37,Sabellidae,1,1
+38,Gonatus fabricii,5,1
+38,Pasiphaea,2868,95
+38,Acanthephyra pelag,53,7
+38,Parapasiphae sulca,16,3
+38,Acanthephyra purpu,12,2
+38,Gnathophausia zoea,7,3
+38,Sergestes arcticus,2,1
+38,Dumbo octopus,1870,1
+38,Bivalves,1,1
+38,Phormosoma placent,192,8
+38,Acanella arbuscula,12,2
+38,Anthoptilum,38,4
+38,Funiculina quadran,6,1
+38,Halipteris finmarc,24,1
+38,Atollidae,2960,34
+38,Periphyllidae,4810,8
+38,Polychaetes,3,3
+39,Gonatus fabricii,5,1
+39,Pasiphaea,639,28
+39,Acanthephyra pelag,285,40
+39,Parapasiphae sulca,8,2
+39,Acanthephyra purpu,49,7
+39,Acanthephyra,15,3
+39,Gnathophausia zoea,4,2
+39,Pontophilus norveg,3,1
+39,Northern shrimp,12,1
+39,Buccinum,8,1
+39,Phormosoma placent,142,7
+39,Hormathiidae,37,1
+39,Heteropolypus,31,4
+39,Duva florida,6,1
+39,Acanella arbuscula,2,1
+39,Anthoptilum,8,2
+39,Funiculina quadran,3,2
+39,Flabellum,28,5
+39,Atollidae,2750,21
+39,Periphyllidae,2610,5
+39,Ascidia,21,3
+40,Northern shrimp,2380,172
+40,Pandalus (sobrecop,4,1
+40,Gonatus fabricii,6,1
+40,Myctophum punctatu,6,1
+40,Benthopectinidae,1,1
+40,Leptychaster artic,6,2
+40,Psilaster andromed,1,1
+40,Sea anemones,988,4
+40,Hormathiidae,110,14
+40,Pennatula,2,1
+40,Flabellum,18,2
+40,Periphyllidae,16780,21
+40,Ascidia,4,2
+40,Sponges,30,2
+41,Pandalus (sobrecop,6,2
+41,Northern shrimp,281,37
+41,Ophiopholis,2,1
+41,Hormathiidae,15,2
+41,Funiculina quadran,3,1
+41,Periphyllidae,10420,11
+41,Sponges,31,NA
+42,Myctophum punctatu,33,4
+42,Pasiphaea multiden,3,1
+42,Sergestes arcticus,9,6
+42,Northern shrimp,2780,349
+42,Gonatus fabricii,5,1
+42,Astarte,3,1
+42,Echinasteridae,3,1
+42,Hippasteria phrygi,78,2
+42,Psilaster andromed,4,1
+42,Brittle star,3,2
+42,Ophiopholis,2,1
+42,Brisaster fragilis,6,1
+42,Hormathiidae,259,9
+42,Sea anemones,2285,5
+42,Heteropolypus,10,3
+42,Nephtheidae,13,5
+42,Radicipes,1,1
+42,Anthoptilum,6,1
+42,Stauropathes arcti,133,1
+42,Periphyllidae,4120,4
+42,Pycnogonida,1,1
+42,Ascidia,20,3
+42,Didemnidae,5,1
+42,Terebratulina sept,1,2
+42,Sponges,23,NA
+42,Polymastiidae,442,1
+43,Northern shrimp,640,92
+43,Pandalus (sobrecop,20,3
+43,Sepiolidae,24,1
+43,Colus,5,1
+43,Echinasteridae,2,1
+43,Leptychaster artic,2,1
+43,Sea anemones,366,4
+43,Hormathiidae,174,5
+43,Nephtheidae,2,1
+43,Periphyllidae,19400,28
+43,Ascidia,2,1
+43,Sponges,13,1
+44,Northern shrimp,284,48
+44,Euphausiacea,1,1
+44,Todarodes sagittat,385,1
+44,Beringius turtoni,55,1
+44,Neptunea despecta,20,1
+44,Benthopectinidae,1,2
+44,Ceramaster,25,2
+44,Ctenodiscus crispa,2,2
+44,Leptychaster artic,6,3
+44,Ophiopholis,1,1
+44,Ophiura sarsii,4,12
+44,Hormathiidae,44,7
+44,Periphyllidae,9740,11
+44,Laetmonice,2,1
+44,Ascidia,1,1
+44,Sponges,487,1
+45,Northern shrimp,556,89
+45,Pandalus (sobrecop,19,5
+45,Benthopectinidae,3,2
+45,Leptychaster artic,208,5
+45,Nephtheidae,6,1
+45,Periphyllidae,3250,6
+45,Laetmonice,2,1
+45,Sponges,84,NA
+46,Northern shrimp,90,9
+46,Pandalus (sobrecop,11,9
+46,Astarte,2,1
+46,Ceramaster,29,2
+46,Sea anemones,604,3
+46,Duva florida,14,1
+46,Periphyllidae,4520,4
+46,Sponges,139,NA
+47,Northern shrimp,39,9
+47,Pandalus (sobrecop,8,9
+47,Hyperiid amphipod,1,2
+47,Ophiopholis,2,1
+47,Duva florida,3,1
+47,Epizoanthidae,2,1
+47,Periphyllidae,3440,3
+47,Laetmonice,2,1
+47,Sponges,164,1
+47,Chaetognaths,1,3
+48,Northern shrimp,82,17
+48,Pandalus (sobrecop,1,2
+48,Neptunea despecta,17,1
+48,Sea anemones,304,2
+48,Hormathiidae,246,7
+48,Periphyllidae,6370,9
+48,Sponges,114,NA
+49,Pandalus (sobrecop,3,5
+49,Northern shrimp,176,36
+49,Ceramaster,9,1
+49,Ophiopholis,3,2
+49,Sea anemones,136,1
+49,Periphyllidae,1180,1
+49,Sponges,630,NA
+50,Northern shrimp,85,17
+50,Pandalus (sobrecop,3,5
+50,Ophiopholis,1,1
+50,Ophiura sarsii,1,1
+50,Liponema,94,3
+50,Periphyllidae,2660,3
+50,Laetmonice,3,1
+50,Sponges,171,NA
+51,Northern shrimp,146,30
+51,Pandalus (sobrecop,24,22
+51,Ophiura sarsii,2,2
+51,Sea anemones,94,1
+51,Periphyllidae,1780,2
+51,Sponges,1179,NA
+51,Epizoanthidae,4,1
+52,Northern shrimp,76,17
+52,Pandalus (sobrecop,6,8
+52,Aporrhais occident,6,1
+52,Ceramaster,10,1
+52,Leptychaster artic,2,1
+52,Ophiura sarsii,1,1
+52,Hormathiidae,12,1
+52,Periphyllidae,5160,4
+52,Laetmonice,3,2
+52,Radiella hemisphae,24,2
+52,Polymastiidae,9,2
+52,Sponges,264,NA
+53,Pasiphaea,17,1
+53,Acanthephyra pelag,224,33
+53,Acanthephyra purpu,134,21
+53,Acanthephyra,37,4
+53,Gnathophausia zoea,3,2
+53,Sabinea hystrix,9,1
+53,Buccinum,3,1
+53,Gastropoda,2,1
+53,Ophiomusium lymani,2,1
+53,Phormosoma placent,89,12
+53,Nephtheidae,2,1
+53,Acanella arbuscula,11,1
+53,Flabellum,6,2
+53,Atollidae,2900,31
+53,Periphyllidae,480,3
+53,Ascidia,8,1
+53,Terebratulina sept,2,2
+53,Geodiidae,24400,5
+53,Sponges,28,1
+53,Stryphnus sp.,58,1
+54,Gonatus fabricii,39,4
+54,Pasiphaea,5,1
+54,Myctophum punctatu,43,5
+54,Sergestes arcticus,86,56
+54,Sergia robusta,11,2
+54,Northern shrimp,5800,258
+54,Pandalus (sobrecop,4,1
+54,Plesiopenaeus,53,1
+54,Euphausiacea,6,2
+54,Cephalopod,29,1
+54,Buccinum,3,1
+54,Brittle star,2,1
+54,Hormathiidae,109,5
+54,Heteropolypus,29,6
+54,Flabellum,24,4
+54,Atollidae,290,3
+54,Periphyllidae,7360,8
+54,Laetmonice,3,1
+54,Ascidia,15,3
+54,Sponges,1121,NA
+55,Northern shrimp,6600,333
+55,Pandalus (sobrecop,11,4
+55,Myctophum punctatu,30,4
+55,Stomiidae,29,2
+55,Isopodo,4,3
+55,Lebbeus polaris,1,1
+55,Snow crab,357,1
+55,Sergestes arcticus,19,12
+55,Buccinum,17,1
+55,Echinasteridae,12,3
+55,Hippasteria phrygi,6,1
+55,Leptychaster artic,2,1
+55,Lophaster furcifer,8,3
+55,Poraniidae,11,2
+55,Brittle star,6,8
+55,Ophiopholis,89,47
+55,Ophiura sarsii,1,3
+55,Ophiacantha,2,2
+55,Gorgonocephalidae,82,2
+55,Periphyllidae,18800,18
+55,Polynoidae,9,8
+55,Pycnogonida,4,7
+55,Ascidia,58,7
+55,Sponges,12100,4
+55,Hormathiidae,140,7
+55,Actinernus,18,1
+55,Duva florida,188,10
+55,Radicipes,4,3
+55,Anthoptilum,3,1
+55,Flabellum,17,4
+56,Northern shrimp,118,20
+56,Pandalus (sobrecop,2,1
+56,Neptunea despecta,38,1
+56,Benthopectinidae,7,1
+56,Hippasteria phrygi,41,1
+56,Leptychaster artic,1,1
+56,Sea anemones,1892,5
+56,Hormathiidae,91,9
+56,Duva florida,18,1
+56,Anthoptilum,74,1
+56,Periphyllidae,28800,33
+57,Northern shrimp,361,66
+57,Pandalus (sobrecop,12,11
+57,Gonatus fabricii,12,1
+57,Benthopectinidae,41,10
+57,Ceramaster,59,4
+57,Hippasteria phrygi,313,2
+57,Leptychaster artic,10,5
+57,Ophiura sarsii,2,2
+57,Brittle star,1,1
+57,Hormathiidae,421,8
+57,Duva florida,21,1
+57,Periphyllidae,9140,8
+57,Laetmonice,2,1
+57,Polychaetes,1,1
+57,Didemnidae,39,1
+57,Sponges,77,NA
+58,Northern shrimp,327,48
+58,Pandalus (sobrecop,4,3
+58,Lebbeus polaris,1,1
+58,Snow crab,1313,1
+58,Benthopectinidae,17,4
+58,Ceramaster,84,4
+58,Hippasteria phrygi,20,1
+58,Psilaster andromed,7,1
+58,Brittle star,1,1
+58,Ophiopholis,22,20
+58,Ophiura sarsii,1,2
+58,Hormathiidae,455,25
+58,Anthoptilum,49,1
+58,Periphyllidae,14240,17
+58,Sabellidae,12,13
+58,Polynoidae,4,3
+58,Ascidia,2,1
+58,Sponges,1741,1
+59,Northern shrimp,1058,145
+59,Myctophum punctatu,112,17
+59,Lebbeus polaris,4,1
+59,Pandalus (sobrecop,26,6
+59,Crustacean,1058,NA
+59,Pontophilus norveg,1,1
+59,Leptychaster artic,2,1
+59,Ophiopholis,1,1
+59,Ophiura sarsii,1,2
+59,Hormathiidae,87,10
+59,stephanauge nexili,47,1
+59,Duva florida,95,1
+59,Anthoptilum,5,2
+59,Periphyllidae,17600,16
+59,Laetmonice,1,1
+59,Sponges,174,1
+60,Gonatus fabricii,47,2
+60,Acanthephyra pelag,186,30
+60,Parapasiphae sulca,6,2
+60,Acanthephyra purpu,94,16
+60,Acanthephyra,16,2
+60,Gnathophausia zoea,4,2
+60,Pandalus propinquu,6,1
+60,Pasiphaea,101,5
+60,Sergestes arcticus,2,1
+60,Echinasteridae,2,1
+60,Mediaster bairdi,8,1
+60,Brittle star,2,1
+60,Phormosoma placent,31,5
+60,Hormathiidae,18,1
+60,Anthoptilum,13,2
+60,Stauropathes arcti,132,1
+60,Atollidae,4490,44
+60,Periphyllidae,110,2
+60,Polychaetes,3,3
+60,Colossendeidae,6,1
+60,Pycnogonida,1,1
+60,Didemnidae,5,1
+60,Stryphnus sp.,2490,21
+61,Acanthephyra pelag,419,62
+61,Acanthephyra purpu,135,21
+61,Acanthephyra,139,22
+61,Parapasiphae sulca,16,4
+61,Pasiphaea,186,11
+61,Sergestes arcticus,2,1
+61,Euphausiacea,1,1
+61,Gonatus fabricii,13,1
+61,Ophiomusium lymani,3,1
+61,Phormosoma placent,23,6
+61,Hormathiidae,243,1
+61,Actinoscyphia,678,1
+61,Heteropolypus,9,3
+61,Funiculina quadran,4,1
+61,Halipteris finmarc,84,3
+61,Flabellum,18,2
+61,Stauropathes arcti,51,1
+61,Atollidae,2230,18
+61,Periphyllidae,6120,11
+62,Northern shrimp,4230,222
+62,Sergestes arcticus,1290,948
+62,Sergia robusta,7,3
+62,Argyropelecus hemi,2,1
+62,Gonatus fabricii,12,2
+62,Aporrhais occident,5,1
+62,Echinasteridae,2,1
+62,Hippasteria phrygi,152,1
+62,Tremaster mirabili,54,1
+62,Brittle star,40,34
+62,Brisaster fragilis,4,1
+62,stephanauge nexili,42,1
+62,Heteropolypus,20,6
+62,Duva florida,190,6
+62,Funiculina quadran,5,1
+62,Halipteris finmarc,170,2
+62,Flabellum,14,4
+62,Stauropathes arcti,197,1
+62,Jellyfish,1,1
+62,Atollidae,510,5
+62,Periphyllidae,2640,5
+62,Pycnogonida,1,1
+62,Ascidia,17,3
+62,Didemnidae,10,2
+62,Sponges,257,NA
+63,Northern shrimp,9,1
+63,Acanthephyra pelag,552,76
+63,Acanthephyra purpu,47,7
+63,Acanthephyra,136,22
+63,Pasiphaea,972,132
+63,Sergestes arcticus,6,6
+63,Gonatus fabricii,117,12
+63,Aporrhais occident,10,1
+63,Astarte,3,1
+63,Psilaster andromed,3,1
+63,Poraniidae,12,1
+63,Ophiomusium lymani,3,1
+63,Brittle star,4,4
+63,Phormosoma placent,51,5
+63,Hormathiidae,145,7
+63,stephanauge nexili,17,1
+63,Actinoscyphia,624,1
+63,Sea anemones,337,1
+63,Heteropolypus,263,93
+63,Duva florida,94,5
+63,Acanella arbuscula,12,3
+63,Anthoptilum,522,30
+63,Halipteris finmarc,55,3
+63,Flabellum,64,9
+63,Stauropathes arcti,47,2
+63,Atollidae,2080,22
+63,Periphyllidae,7850,8
+63,Pycnogonida,2,1
+63,Ascidia,27,10
+63,Didemnidae,19,1
+63,Terebratulina sept,2,1
+63,Sponges,381,NA
+64,Myctophum punctatu,23,3
+64,Acanthephyra purpu,7,1
+64,Pasiphaea,9,2
+64,Sergestes arcticus,1146,924
+64,Sergia robusta,11,4
+64,Euphausiacea,4,2
+64,Northern shrimp,1760,119
+64,Gonatus fabricii,149,12
+64,Astarte,4,1
+64,Echinasteridae,3,1
+64,Psilaster andromed,2,1
+64,Hormathiidae,112,11
+64,stephanauge nexili,39,1
+64,Heteropolypus,116,38
+64,Duva florida,24,1
+64,Anthoptilum,8,4
+64,Funiculina quadran,8,2
+64,Halipteris finmarc,69,2
+64,Flabellum,33,8
+64,Atollidae,1920,18
+64,Periphyllidae,3780,7
+64,Ascidia,21,4
+64,Didemnidae,43,2
+64,Terebratulina sept,2,2
+64,Sponges,18,NA
+64,Rhizaxinella,1,1
+65,Northern shrimp,178,28
+65,Pandalus (sobrecop,4,2
+65,Sergestes arcticus,2,2
+65,Ophiura sarsii,1,1
+65,Hormathiidae,121,9
+65,Heteropolypus,4,1
+65,Anthoptilum,7,1
+65,Periphyllidae,11290,12
+65,Ascidia,10,1
+66,Northern shrimp,81,14
+66,Pandalus (sobrecop,12,5
+66,Benthopectinidae,10,7
+66,Ceramaster,21,2
+66,Hippasteria phrygi,5,1
+66,Leptychaster artic,5,3
+66,Ophiopholis,4,6
+66,Ophiura sarsii,1,2
+66,Sea anemones,46,3
+66,Hormathiidae,79,5
+66,Stauropathes arcti,1,1
+66,Hydrozoans,2,1
+66,Laetmonice,1,1
+66,Sponges,752,4
+67,Pasiphaea,163,7
+67,Acanthephyra pelag,92,15
+67,Parapasiphae sulca,24,6
+67,Acanthephyra,20,4
+67,Gnathophausia zoea,6,3
+67,Pandalus propinquu,46,15
+67,Sergestes arcticus,3,2
+67,Chaceon quinqueden,413,1
+67,Acanthephyra eximi,60,1
+67,Gonatus fabricii,103,1
+67,Echinasteridae,6,2
+67,Solasteridae,1,1
+67,Homophiura,2,1
+67,Ophiacantha,2,2
+67,Brittle star,2,1
+67,Sea urchins,162,2
+67,Heteropolypus,5,1
+67,Anthomastus,61,4
+67,Isididae,60,NA
+67,Epizoanthidae,5,2
+67,Atollidae,3550,43
+67,Periphyllidae,7150,6
+67,Polychaetes,2,1
+67,Pycnogonida,3,3
+67,Bryozoa,240,NA
+67,Sponges,41729,17
+67,Stryphnus sp.,53200,63
+67,Geodiidae,78110,18
+67,Pyrosomatidae,3,1
+67,Crinoid,2,1
+67,Ascidia,12,1
+68,Acanthephyra pelag,323,56
+68,Acanthephyra purpu,207,30
+68,Acanthephyra,67,10
+68,Gnathophausia zoea,1,1
+68,Parapasiphae sulca,14,2
+68,Pasiphaea,69,3
+68,Sabinea hystrix,5,1
+68,Sergestes arcticus,2,1
+68,Gonatus fabricii,26,2
+68,Bathypolypus,124,1
+68,Aporrhais occident,14,1
+68,Echinasteridae,6,2
+68,Homophiura,5,3
+68,Phormosoma placent,87,8
+68,Anthomastus,7,1
+68,Acanella arbuscula,2,1
+68,Stauropathes arcti,11,1
+68,Anthoptilum,10,1
+68,Atollidae,3000,36
+68,Periphyllidae,2570,5
+68,Laetmonice,66,8
+68,Ascidia,72,1
+68,Didemnidae,59,10
+68,Polymastiidae,31,1
+68,Sponges,659,9
+68,Stryphnus sp.,3529,22
+68,Astrophorida,2120,2
+68,Geodiidae,13000,7
+69,Gonatus fabricii,244,20
+69,Pasiphaea,428,56
+69,Acanthephyra pelag,1100,167
+69,Parapasiphae sulca,22,4
+69,Northern shrimp,63,5
+69,Myctophum punctatu,8,1
+69,Argyropelecus giga,17,1
+69,Acanthephyra purpu,482,82
+69,Acanthephyra,163,24
+69,Ephyrina,12,1
+69,Gnathophausia zoea,6,3
+69,Munidopsis curviro,2,1
+69,Polycheles nanus,9,1
+69,Sergestes arcticus,14,12
+69,Sergia robusta,10,3
+69,Aporrhais occident,12,1
+69,Psilaster andromed,4,1
+69,Ophiomusium lymani,5,2
+69,Phormosoma placent,64,6
+69,Sea anemones,2007,3
+69,Hormathiidae,291,7
+69,Heteropolypus,240,92
+69,Anthoptilum,14,1
+69,Halipteris finmarc,55,2
+69,Flabellum,118,9
+69,Atollidae,255,5
+69,Periphyllidae,3650,7
+69,Ascidia,17,4
+69,Sponges,89,1
+69,Stryphnus sp.,2,NA
+69,Terebratulina sept,1,1
+70,Myctophum punctatu,6,1
+70,Pasiphaea multiden,3,1
+70,Pontophilus norveg,2,1
+70,Sergestes arcticus,41,36
+70,Euphausiacea,2,1
+70,Northern shrimp,3940,156
+70,Gonatus fabricii,40,2
+70,Brisingidae,342,1
+70,Echinasteridae,4,3
+70,Leptychaster artic,3,2
+70,Lophaster furcifer,7,3
+70,Tremaster mirabili,303,3
+70,Poraniidae,10,3
+70,Ophiopholis,7,6
+70,Brittle star,6,10
+70,Hormathiidae,296,14
+70,Actinernus,78,1
+70,Heteropolypus,24,2
+70,Halipteris finmarc,62,2
+70,Flabellum,38,2
+70,Periphyllidae,4820,9
+70,Ascidia,34,5
+70,Didemnidae,46,3
+70,Terebratulina sept,1,1
+70,Sponges,2418,3
+71,Cirripeda,2,24
+71,Northern shrimp,173,26
+71,Neptunea despecta,9,1
+71,Colus,50,1
+71,Astarte,2,1
+71,Benthopectinidae,4,2
+71,Ceramaster,56,4
+71,Leptychaster artic,13,5
+71,Ophiura sarsii,2,3
+71,Hormathiidae,128,4
+71,Periphyllidae,9620,7
+71,Didemnidae,8,1
+71,Sponges,138,NA
+72,Northern shrimp,19,3
+72,Pandalus (sobrecop,2,3
+72,Benthopectinidae,2,2
+72,Ceramaster,23,2
+72,Leptychaster artic,5,3
+72,Hormathiidae,132,3
+72,Duva florida,6,1
+72,Periphyllidae,2020,2
+72,Sponges,20,NA
+72,Radiella hemisphae,9,1
+73,Pandalus (sobrecop,1,2
+73,Aporrhais occident,9,1
+73,Leptychaster artic,3,1
+73,Ophiura sarsii,1,1
+73,Hormathiidae,6,1
+73,Sea anemones,352,5
+73,Periphyllidae,4880,4
+73,Sponges,11,NA
+74,Ceramaster,10,1
+74,Leptychaster artic,3,1
+74,Ophiopholis,2,2
+74,Ophiura sarsii,1,1
+74,Sea urchins,1,1
+74,Hormathiidae,8,1
+74,Periphyllidae,310,1
+74,Sponges,91,1
+75,Ophiura sarsii,1,1
+75,Sea anemones,41,3
+75,Laetmonice,4,1
+75,Sponges,14,NA
+76,Northern shrimp,4,1
+76,Neptunea despecta,88,2
+76,Ceramaster,32,3
+76,Leptychaster artic,2,1
+76,Ophiura sarsii,1,4
+76,Sea anemones,215,1
+76,Hormathiidae,71,9
+76,Periphyllidae,2930,2
+76,Laetmonice,4,1
+76,Sponges,140,2
+77,Northern shrimp,62,10
+77,Benthopectinidae,44,16
+77,Ceramaster,33,5
+77,Leptychaster artic,8,6
+77,Mediaster bairdi,1,1
+77,Ophiura sarsii,1,5
+77,Sea anemones,40,1
+77,Hormathiidae,531,7
+77,Periphyllidae,26600,31
+77,Laetmonice,1,1
+77,Sponges,157,3
+78,Northern shrimp,210,31
+78,Benthopectinidae,7,2
+78,Ceramaster,9,1
+78,Ctenodiscus crispa,11,2
+78,Leptychaster artic,4,1
+78,Ophiura sarsii,3,4
+78,Sea anemones,32,1
+78,Hormathiidae,281,12
+78,Anthoptilum,149,2
+78,Periphyllidae,24566,32
+78,Ascidia,3,1
+78,Polymastiidae,61,1
+79,Northern shrimp,343,37
+79,Gonatus fabricii,71,8
+79,Pasiphaea,63,6
+79,Acanthephyra pelag,37,6
+79,Myctophum punctatu,8,1
+79,Euphausiacea,1,1
+79,Sabinea hystrix,16,1
+79,Sergestes arcticus,29,22
+79,Sergia robusta,6,4
+79,Teuthowenia megalo,6,NA
+79,Benthopectinidae,4,2
+79,Echinasteridae,1,1
+79,Psilaster andromed,4,1
+79,Pterasteridae,4,1
+79,Phormosoma placent,74,3
+79,Hormathiidae,911,26
+79,Heteropolypus,234,106
+79,Duva florida,40,4
+79,Acanella arbuscula,8,2
+79,Anthoptilum,1480,57
+79,Halipteris finmarc,5,1
+79,Flabellum,72,6
+79,Atollidae,395,7
+79,Periphyllidae,14,2
+79,Ascidia,14,6
+79,Sponges,29,3
+80,Northern shrimp,2780,177
+80,Myctophum punctatu,49,6
+80,Neptunea despecta,7,1
+80,Echinasteridae,2,2
+80,Psilaster andromed,10,1
+80,Hormathiidae,460,39
+80,Heteropolypus,13,10
+80,Duva florida,17,2
+80,Anthoptilum,41,6
+80,Halipteris finmarc,79,1
+80,Flabellum,18,3
+80,Stauropathes arcti,20,1
+80,Periphyllidae,7090,8
+80,Ascidia,4,1
+80,Sponges,4,1
+81,Northern shrimp,584,58
+81,Gonatus fabricii,139,16
+81,Parapasiphae sulca,1,1
+81,Acanthephyra pelag,103,17
+81,Pasiphaea,196,21
+81,Myctophum punctatu,9,1
+81,Acanthephyra,25,4
+81,Gennadas,1,1
+81,Sergestes arcticus,6,5
+81,Sergia robusta,2,1
+81,Cephalopod,113,1
+81,Phormosoma placent,28,1
+81,Sea anemones,2042,4
+81,Hormathiidae,318,11
+81,Heteropolypus,287,135
+81,Duva florida,10,2
+81,Acanella arbuscula,20,2
+81,Radicipes,1,1
+81,Flabellum,75,9
+81,Jellyfish,3,1
+81,Atollidae,1970,12
+81,Periphyllidae,6290,11
+81,Laetmonice,26,2
+81,Ascidia,34,6
+81,Brachiopod,2,1
+81,Sponges,59,2
+81,Polymastiidae,3,1
+82,Northern shrimp,3820,298
+82,Gnathophausia zoea,1,1
+82,Sergestes arcticus,1382,959
+82,Sergia robusta,8,4
+82,Euphausiacea,5,4
+82,Gonatus fabricii,93,9
+82,Nudibranch,11,2
+82,Echinasteridae,4,5
+82,Hippasteria phrygi,781,1
+82,Poraniidae,6,1
+82,Brisaster fragilis,6,1
+82,Hormathiidae,275,14
+82,Cnidarians,82,1
+82,Heteropolypus,22,14
+82,Duva florida,3753,185
+82,Acanella arbuscula,4,1
+82,Isididae,48,NA
+82,Anthoptilum,2,2
+82,Flabellum,17,3
+82,Cnidarians,5,1
+82,Atollidae,110,4
+82,Periphyllidae,3350,4
+82,Ascidia,5,1
+82,Didemnidae,108,10
+82,Terebratulina sept,2,3
+82,Sponges,285,1
+83,Acanthephyra pelag,277,44
+83,Acanthephyra purpu,13,2
+83,Acanthephyra,43,6
+83,Gnathophausia zoea,5,3
+83,Pandalus propinquu,3,1
+83,Pasiphaea,366,28
+83,Sergestes arcticus,19,12
+83,Sergia robusta,6,1
+83,Gonatus fabricii,47,5
+83,Astarte,2,1
+83,Psilaster andromed,9,1
+83,Ophiomusium lymani,2,1
+83,Phormosoma placent,31,1
+83,Hormathiidae,37,5
+83,Sea anemones,1,1
+83,Heteropolypus,2,1
+83,Duva florida,477,31
+83,Acanella arbuscula,7,3
+83,Atollidae,1110,13
+83,Periphyllidae,4490,6
+83,Laetmonice,192,40
+83,Ascidia,14,3
+83,Didemnidae,131,23
+83,Sponges,299,5
+83,Stryphnus sp.,297,2
+83,Geodiidae,12600,2
+83,Astrophorida,5320,2
+84,Gonatus fabricii,41,3
+84,Northern shrimp,638,74
+84,Euphausiacea,2,2
+84,Sergestes arcticus,1337,955
+84,Echinasteridae,4,3
+84,Hippasteria phrygi,5,1
+84,Lophaster furcifer,14,2
+84,Poraniomorpha hisp,1,1
+84,Pterasteridae,49,1
+84,Tremaster mirabili,5,1
+84,Brittle star,3,4
+84,Sea anemones,1,1
+84,Hormathiidae,60,2
+84,stephanauge nexili,23,1
+84,Duva florida,777,32
+84,Nephtheidae,5,2
+84,Anthomastus,29,1
+84,Acanella arbuscula,1,1
+84,Radicipes,1,1
+84,Epizoanthidae,1,1
+84,Flabellum,11,2
+84,Periphyllidae,590,3
+84,Laetmonice,15,2
+84,Ascidia,28,8
+84,Sponges,60,1
+84,Polymastiidae,22,1
+84,Stryphnus sp.,26,1
+84,Chaetognaths,1,3
+85,Northern shrimp,408,52
+85,Ceramaster,18,1
+85,Leptychaster artic,2,1
+85,Solasteridae,9,1
+85,Hormathiidae,509,21
+85,Heteropolypus,2,1
+85,Duva florida,22,1
+85,Halipteris finmarc,9,1
+85,Periphyllidae,11430,11
+85,Sponges,516,1
+86,Myctophum punctatu,5,1
+86,Northern shrimp,453,91
+86,Pandalus (sobrecop,5,2
+86,Benthopectinidae,10,11
+86,Ceramaster,12,1
+86,Leptychaster artic,10,4
+86,Ophiura sarsii,6,3
+86,Gorgonocephalidae,2,1
+86,Sea anemones,155,4
+86,Hormathiidae,153,3
+86,Sea anemones,409,1
+86,Duva florida,26,3
+86,Periphyllidae,12820,14
+86,Sponges,9,NA
+87,Northern shrimp,420,86
+87,Myctophum punctatu,29,3
+87,Bathybiaster vexil,4,1
+87,Benthopectinidae,38,82
+87,Ceramaster,14,3
+87,Leptychaster artic,9,7
+87,Lophaster furcifer,2,1
+87,Ophiopholis,1,1
+87,Ophiura sarsii,6,7
+87,Brisaster fragilis,1,NA
+87,Duva florida,86,5
+87,Epizoanthidae,1,1
+87,Atollidae,125,1
+87,Periphyllidae,4250,3
+87,Laetmonice,1,1
+87,Pycnogonida,1,1
+87,Ascidia,3,2
+87,Sponges,21,1
+87,Polymastiidae,42,2
+88,Ceramaster,36,8
+88,Leptychaster artic,13,8
+88,Ophiopholis,2,6
+88,Duva florida,50,2
+88,Halipteris finmarc,1,1
+88,Periphyllidae,1600,1
+88,Laetmonice,8,4
+88,Bryozoa,3,NA
+88,Sponges,172,NA
+89,Ophiura sarsii,1,3
+89,Duva florida,107,6
+89,Epizoanthidae,1,2
+89,Jellyfish,602,NA
+89,Sponges,6,2
+89,Polymastiidae,26,1
+90,Echinasteridae,4,1
+90,Ophiopholis,6,8
+90,Heteropolypus,2,1
+90,Ascidia,17,1
+90,Sponges,76,3
+91,Ceramaster,5,1
+91,Leptychaster artic,4,2
+91,Ophiopholis,2,4
+91,Duva florida,17,4
+91,Periphyllidae,2030,3
+91,Laetmonice,1,1
+91,Sponges,7,3
+92,Periphyllidae,6930,6
+92,Sponges,23,1
+93,Northern shrimp,159,30
+93,Benthopectinidae,44,13
+93,Ceramaster,9,2
+93,Leptychaster artic,9,4
+93,Ophiopholis,2,4
+93,Ophiura sarsii,1,2
+93,Periphyllidae,4000,4
+93,Laetmonice,8,5
+93,Sponges,35,3
+93,Radiella hemisphae,17,3
+93,Polymastiidae,28,1
+94,Gonatus fabricii,9,1
+94,Pasiphaea,145,6
+94,Acanthephyra pelag,37,5
+94,Parapasiphae sulca,4,1
+94,Acanthephyra,14,2
+94,Sergestes arcticus,10,5
+94,Opisthoteuthidae,1430,1
+94,Mediaster bairdi,3,1
+94,Crinoid,1,1
+94,Duva florida,15,1
+94,Anthomastus,4,1
+94,Epizoanthidae,1,1
+94,Atollidae,2490,24
+94,Periphyllidae,2280,5
+94,Ascidia,137,2
+94,Stryphnus sp.,310,7
+94,Geodiidae,49800,17
+95,Gonatus fabricii,195,8
+95,Pasiphaea,712,29
+95,Acanthephyra pelag,441,78
+95,Acanthephyra purpu,48,7
+95,Acanthephyra,135,23
+95,Gnathophausia zoea,2,1
+95,Pandalus propinquu,4,1
+95,Sergestes arcticus,10,7
+95,Mediaster bairdi,4,1
+95,Pterasteridae,5,1
+95,Acanella arbuscula,1,1
+95,Pennatula grandis,10,1
+95,Atollidae,920,12
+95,Periphyllidae,5560,6
+95,Laetmonice,13,3
+95,Sponges,48,1
+95,Geodiidae,10205,4
+95,Stryphnus sp.,1570,3
+96,Northern shrimp,23,3
+96,Acanthephyra pelag,6,1
+96,Acanthephyra,14,2
+96,Pasiphaea,20,1
+96,Gonatus fabricii,11,NA
+96,Buccinum,22,2
+96,Gastropoda,9,1
+96,Nudibranch,6,1
+96,Echinasteridae,8,1
+96,Hippasteria phrygi,223,3
+96,Lophaster furcifer,10,1
+96,Pseudarchaster,7,1
+96,Tremaster mirabili,278,5
+96,Hormathiidae,517,24
+96,Cnidarians,778,28
+96,Acanella arbuscula,9,1
+96,Atollidae,134,2
+96,Periphyllidae,3810,5
+96,Sponges,32,1
+98,Acanthephyra pelag,21,3
+98,Northern shrimp,4,1
+98,Acanthephyra purpu,10,1
+98,Acanthephyra,18,3
+98,Sergestes arcticus,5,4
+98,Dumbo octopus,2020,1
+98,Sea anemones,671,1
+98,Anthomastus,4,1
+98,Atollidae,350,6
+98,Periphyllidae,9470,9
+99,Alepocephalidae,16,1
+99,Acanthephyra pelag,172,47
+99,Acanthephyra purpu,44,7
+99,Acanthephyra,15,3
+99,Benthesicymus bart,6,1
+99,Neolithodes grimal,8,1
+99,Parapasiphae sulca,12,3
+99,Pasiphaea,485,18
+99,Gonatus fabricii,44,1
+99,Graneledone,1721,1
+99,Ophiomusium lymani,3,1
+99,Phormosoma placent,43,4
+99,Hormathiidae,56,1
+99,Sea anemones,345,1
+99,Actinernus,83,1
+99,Atollidae,2110,22
+99,Periphyllidae,1470,5
+99,Astrophorida,292,2
+99,Stryphnus sp.,860,4
+100,Myctophum punctatu,13,2
+100,Acanthephyra pelag,219,34
+100,Acanthephyra purpu,39,6
+100,Acanthephyra,25,5
+100,Parapasiphae sulca,13,4
+100,Pasiphaea,829,28
+100,Polycheles nanus,8,1
+100,Sergestes arcticus,3,1
+100,Gonatus fabricii,26,1
+100,Opisthoteuthidae,5420,1
+100,Phormosoma placent,26,2
+100,Sea anemones,5,25
+100,Flabellum,4,1
+100,Desmophyllum diant,109,1
+100,Atollidae,1890,23
+100,Periphyllidae,59,2
+100,Geodiidae,2580,2
+100,Stryphnus sp.,949,2
+100,Sponges,14,NA
+101,Acanthephyra pelag,274,44
+101,Acanthephyra purpu,102,16
+101,Acanthephyra,39,7
+101,Gnathophausia zoea,3,1
+101,Nematocarcinus rot,10,2
+101,Parapasiphae sulca,3,1
+101,Pasiphaea,2900,98
+101,Gonatus fabricii,24,1
+101,Buccinum,7,1
+101,Gastropoda,3,1
+101,Ophiomusium lymani,4,1
+101,Brittle star,3,1
+101,Phormosoma placent,180,15
+101,Heteropolypus,5,1
+101,Atollidae,4370,42
+101,Periphyllidae,5200,8
+101,Colossendeidae,5,1
+102,Maulisia mauli,20,1
+102,Alepisaurus,3,1
+102,Acanthephyra pelag,94,14
+102,Acanthephyra purpu,78,11
+102,Parapasiphae sulca,9,2
+102,Pasiphaea,2780,88
+102,Sabinea hystrix,5,1
+102,Sergestes arcticus,9,6
+102,Gonatus fabricii,12,1
+102,Squid,28,1
+102,Bathypolypus,174,1
+102,Mediaster bairdi,25,1
+102,Psilaster andromed,10,1
+102,Phormosoma placent,82,8
+102,Heteropolypus,7,1
+102,Atollidae,2560,21
+102,Periphyllidae,1220,6
+103,Gonatus fabricii,115,4
+103,Pasiphaea,4660,151
+103,Acanthephyra pelag,221,36
+103,Parapasiphae sulca,9,2
+103,Bajacalifornia meg,82,1
+103,Etmopterus,39,1
+103,Maulisia mauli,11,1
+103,Acanthephyra purpu,220,4
+103,Acanthephyra,68,11
+103,Sergestes arcticus,2,1
+103,Brisaster fragilis,3,NA
+103,Phormosoma placent,2,1
+103,Jellyfish,1,1
+103,Atollidae,6140,62
+103,Periphyllidae,5590,7
+104,Acanthephyra pelag,101,16
+104,Acanthephyra purpu,48,7
+104,Acanthephyra,3,1
+104,Nematocarcinus rot,6,1
+104,Parapasiphae sulca,10,2
+104,Pasiphaea,997,41
+104,Pontophilus norveg,2,1
+104,Sabinea hystrix,34,3
+104,Sergestes arcticus,18,16
+104,Gonatus fabricii,81,4
+104,Bathypolypus,46,1
+104,Mediaster bairdi,10,2
+104,Brittle star,1,1
+104,Phormosoma placent,49,6
+104,Crinoid,1,1
+104,Flabellum,3,1
+104,Stauropathes arcti,75,1
+104,Atollidae,1870,19
+104,Periphyllidae,5360,6
+104,Astrophorida,178,1
+105,Myctophum punctatu,29,2
+105,Acanthephyra pelag,56,10
+105,Acanthephyra purpu,17,4
+105,Acanthephyra,11,3
+105,Gennadas,1,1
+105,Pasiphaea,1410,57
+105,Sergestes arcticus,30,24
+105,Euphausiacea,2,1
+105,Gonatus fabricii,28,2
+105,Ophiomusium lymani,1,1
+105,Phormosoma placent,47,2
+105,Hormathiidae,21,1
+105,Heteropolypus,4,1
+105,Atollidae,1340,12
+105,Periphyllidae,3030,6
+105,Stryphnus sp.,3,NA
+106,Northern shrimp,1850,95
+106,Gonatus fabricii,21,3
+106,Myctophum punctatu,60,7
+106,Echinasteridae,1,1
+106,Lophaster furcifer,12,4
+106,Tremaster mirabili,3,1
+106,Brittle star,3,3
+106,Ophiopholis,4,3
+106,Flabellum,2,1
+106,Atollidae,92,2
+106,Periphyllidae,1590,3
+106,Ascidia,2,1
+106,Sponges,6,3
+106,Polymastiidae,3,1
+106,Tetillidae,7,2
+107,Northern shrimp,907,104
+107,Pandalus (sobrecop,8,4
+107,Gonatus fabricii,47,4
+107,Myctophum punctatu,60,7
+107,Astarte,1,1
+107,Benthopectinidae,2,1
+107,Ceramaster,3,1
+107,Leptychaster artic,3,2
+107,Lophaster furcifer,3,1
+107,Ophiopholis,1,1
+107,Hormathiidae,1,1
+107,Flabellum,7,1
+107,Jellyfish,85,2
+107,Atollidae,15000,15
+107,Sponges,9,1
+108,Northern shrimp,7000,288
+108,Pandalus (sobrecop,17,6
+108,Gonatus fabricii,3,1
+108,Myctophum punctatu,89,8
+108,Sergestes arcticus,1,1
+108,Hippasteria phrygi,168,1
+108,Leptychaster artic,1,1
+108,Pterasteridae,87,1
+108,Ophiopholis,4,3
+108,Hormathiidae,102,18
+108,Acanella arbuscula,3,2
+108,Atollidae,735,6
+108,Periphyllidae,13000,13
+108,Ascidia,2,1
+108,Sponges,5,1
+109,Gonatus fabricii,23,2
+109,Pasiphaea,10240,336
+109,Acanthephyra pelag,385,66
+109,Parapasiphae sulca,9,2
+109,Pandalus (sobrecop,4,1
+109,Acanthephyra purpu,150,23
+109,Acanthephyra,114,23
+109,Gnathophausia zoea,2,3
+109,Sergestes arcticus,4,4
+109,Bathypolypus,234,1
+109,Phormosoma placent,150,18
+109,stephanauge nexili,13,1
+109,Anthoptilum,19,2
+109,Funiculina quadran,2,1
+109,Halipteris finmarc,11,3
+109,Jellyfish,7,2
+109,Atollidae,9950,104
+109,Periphyllidae,3110,11
+110,Gonatus fabricii,22,2
+110,Pasiphaea,640,59
+110,Myctophum punctatu,8,1
+110,Sergestes arcticus,4,3
+110,Ceramaster,3,1
+110,Pterasteridae,4,1
+110,Hormathiidae,15,1
+110,Anthomastus,32,1
+110,Acanella arbuscula,1,1
+110,Flabellum,8,1
+110,Stauropathes arcti,65,1
+110,Periphyllidae,1080,1
+110,Ascidia,3,1
+110,Sponges,181,NA
+111,Pasiphaea,2770,109
+111,Myctophum punctatu,13,1
+111,Acanthephyra purpu,4,1
+111,Pontophilus norveg,3,1
+111,Sergestes arcticus,1,1
+111,Gastropoda,9,3
+111,Echinasteridae,3,1
+111,Poraniidae,5,1
+111,Brittle star,15,12
+111,Hormathiidae,123,3
+111,Nephtheidae,5,3
+111,Anthomastus,16,2
+111,Flabellum,7,2
+111,Stauropathes arcti,760,3
+111,Atollidae,635,7
+111,Periphyllidae,2850,5
+111,Ascidia,8,3
+111,Didemnidae,14,2
+111,Terebratulina sept,24,22
+111,Sponges,260,NA
+111,Astrophorida,4710,2
+111,Stryphnus sp.,7800,6
+111,Geodiidae,11380,3
+111,Crinoid,1,1
+112,Gonatus fabricii,43,2
+112,Pasiphaea,1890,59
+112,Acanthephyra pelag,203,35
+112,Parapasiphae sulca,24,4
+112,Bajacalifornia meg,63,1
+112,Acanthephyra purpu,82,14
+112,Acanthephyra,74,13
+112,Cirripeda,12,1
+112,Gnathophausia zoea,17,6
+112,Polycheles nanus,6,3
+112,Sergestes arcticus,1,1
+112,Pontophilus norveg,2,1
+112,Teuthowenia megalo,63,1
+112,Bathybiaster vexil,53,2
+112,Mediaster bairdi,43,5
+112,Phormosoma placent,830,49
+112,Atollidae,3490,40
+112,Periphyllidae,2980,4
+113,Pasiphaea,610,18
+113,Acanthephyra pelag,121,18
+113,Parapasiphae sulca,15,3
+113,Bajacalifornia meg,37,1
+113,Melanocetus,144,1
+113,Acanthephyra purpu,9,1
+113,Acanthephyra,46,8
+113,Gnathophausia zoea,1,1
+113,Polycheles nanus,4,1
+113,Sergestes arcticus,4,2
+113,Cephalopod,55,1
+113,Dumbo octopus,1840,1
+113,Bathybiaster vexil,31,1
+113,Phormosoma placent,476,29
+113,Nephtheidae,2,1
+113,Anthoptilum,168,16
+113,Funiculina quadran,4,1
+113,Jellyfish,19,7
+113,Atollidae,2390,21
+113,Periphyllidae,3040,5
+114,Maulisia mauli,42,2
+114,Acanthephyra pelag,389,54
+114,Acanthephyra purpu,87,12
+114,Acanthephyra,39,7
+114,Gnathophausia zoea,7,5
+114,Parapasiphae sulca,12,3
+114,Pasiphaea,691,21
+114,Polycheles nanus,12,3
+114,Pontophilus norveg,2,1
+114,Sergestes arcticus,10,8
+114,Euphausiacea,4,3
+114,Cephalopod,160,4
+114,Gonatus fabricii,37,2
+114,Dumbo octopus,3460,2
+114,Zoroaster fulgens,53,1
+114,Phormosoma placent,119,4
+114,Periphyllidae,3450,5
+114,Atollidae,2180,26
+114,Anthoptilum,215,23
+114,Distichoptilum,3,1
+114,Funiculina quadran,10,2
+114,Halipteris finmarc,44,5
+114,Stauropathes arcti,175,1
+115,Gonatus fabricii,6,1
+115,Pasiphaea,2760,85
+115,Acanthephyra pelag,120,18
+115,Parapasiphae sulca,46,12
+115,Acanthephyra,3,1
+115,Gnathophausia zoea,6,2
+115,Polycheles nanus,2,1
+115,Sergestes arcticus,19,12
+115,Cephalopod,337,5
+115,Dumbo octopus,5790,3
+115,Zoroaster fulgens,192,4
+115,Ophiomusium lymani,9,1
+115,Phormosoma placent,163,6
+115,Acanella arbuscula,4,1
+115,Acanthogorgia,2,1
+115,Radicipes,6,3
+115,Anthoptilum,172,17
+115,Funiculina quadran,15,5
+115,Halipteris finmarc,17,1
+115,Stauropathes arcti,182,1
+115,Atollidae,5240,48
+115,Periphyllidae,1720,4
+115,Pycnogonida,1,1
+116,Gonatus fabricii,33,3
+116,Pasiphaea,560,18
+116,Acanthephyra pelag,41,8
+116,Parapasiphae sulca,4,1
+116,Acanthephyra,22,5
+116,Gnathophausia zoea,1,2
+116,Mysida,1,3
+116,Nematocarcinus rot,4,1
+116,Sergia robusta,4,3
+116,Pontophilus norveg,4,2
+116,Cephalopod,51,1
+116,Teuthowenia megalo,37,1
+116,Dumbo octopus,64,1
+116,Neptunea despecta,29,1
+116,Bathybiaster vexil,30,1
+116,Phormosoma placent,271,20
+116,Hormathiidae,8,1
+116,Funiculina quadran,15,6
+116,Pennatula,3,1
+116,Flabellum,7,1
+116,Stauropathes arcti,37,1
+116,Jellyfish,6,3
+116,Atollidae,1850,19
+116,Periphyllidae,1770,4
+116,Ascidia,7,1
+117,Northern shrimp,327,49
+117,Gonatus fabricii,19,1
+117,Myctophum punctatu,19,2
+117,Pasiphaea multiden,8,4
+117,Sergestes arcticus,60,38
+117,Brittle star,2,1
+117,Sea anemones,980,1
+117,Heteropolypus,4,1
+117,Atollidae,149,1
+117,Periphyllidae,3210,4
+117,Polychaetes,3,2
+117,Sponges,5,1
+118,Northern shrimp,2644,252
+118,Myctophum punctatu,8,1
+118,Notostomus elegans,66,4
+118,Gonatus fabricii,6,1
+118,Squid,312,1
+118,Echinasteridae,2,1
+118,Leptychaster artic,5,2
+118,Ophiopholis,5,3
+118,Crinoid,1,1
+118,Hormathiidae,47,6
+118,Sea anemones,1556,3
+118,Funiculina quadran,7,3
+118,Periphyllidae,19600,19
+118,Sponges,179,3
+118,Polymastiidae,19,1
+119,Northern shrimp,51,8
+119,Pandalus (sobrecop,4,2
+119,Lebbeus polaris,3,1
+119,Euphausiacea,1,1
+119,Benthopectinidae,2,2
+119,Stephanasterias al,1,1
+119,Ophiura sarsii,1,1
+119,Nephtheidae,5,1
+119,Periphyllidae,12800,17
+119,Ascidia,5,1
+119,Sponges,19,4
+120,Northern shrimp,113,24
+120,Pandalus (sobrecop,16,13
+120,Snow crab,1150,2
+120,Neptunea despecta,9,1
+120,Benthopectinidae,1,1
+120,Ceramaster,7,1
+120,Ophiopholis,1,1
+120,Hormathiidae,123,4
+120,Epizoanthidae,2,2
+120,Jellyfish,6,4
+120,Periphyllidae,2830,3
+120,Polychaetes,1,1
+120,Laetmonice,5,3
+120,Ascidia,33,1
+120,Sponges,36,NA
+121,Northern shrimp,148,32
+121,Pandalus (sobrecop,55,33
+121,Buccinum,4,1
+121,Colus,5,1
+121,Ophiura sarsii,1,1
+121,Hormathiidae,7,2
+121,Sea anemones,19,1
+121,Periphyllidae,17400,16
+121,Laetmonice,3,2
+121,Radiella hemisphae,6,1
+121,Sponges,12,1
+122,Northern shrimp,139,19
+122,Pandalus (sobrecop,5,3
+122,Benthopectinidae,7,2
+122,Ceramaster,7,2
+122,Leptychaster artic,1,1
+122,Sea anemones,33,1
+122,Hormathiidae,24,1
+122,Periphyllidae,8710,16
+122,Sponges,52,NA
+123,Northern shrimp,51,9
+123,Pandalus (sobrecop,25,11
+123,Todarodes sagittat,450,1
+123,Benthopectinidae,7,1
+123,Ophiopholis,1,1
+123,Sea anemones,103,1
+123,Hormathiidae,88,4
+123,Periphyllidae,6880,62
+123,Sponges,11,2
+124,Northern shrimp,194,36
+124,Pandalus (sobrecop,34,14
+124,Squid,91,1
+124,Benthopectinidae,5,1
+124,Ceramaster,7,1
+124,Leptychaster artic,5,3
+124,Ophiopholis,2,1
+124,Ophiura sarsii,2,3
+124,Hormathiidae,143,6
+124,Periphyllidae,12600,21
+124,Sponges,286,4
+125,Ceramaster,4,1
+125,Hormathiidae,800,12
+125,Periphyllidae,21800,22
+125,Sponges,85,NA
+125,Polymastiidae,14,1
+125,Pandalus (sobrecop,14,8
+125,Northern shrimp,102,19
+126,Northern shrimp,132,26
+126,Pandalus (sobrecop,19,21
+126,Astarte,2,1
+126,Ceramaster,13,2
+126,Ophiura sarsii,1,1
+126,Sea anemones,710,5
+126,Hormathiidae,4,1
+126,Periphyllidae,1290,2
+126,Hydrozoans,4,1
+126,Sponges,541,2
+127,Northern shrimp,4,1
+127,Pandalus (sobrecop,1,3
+127,Hyas coarctatus,7,1
+127,Ceramaster,39,4
+127,Leptychaster artic,2,1
+127,Stephanasterias al,1,1
+127,Ophiopholis,3,6
+127,Epizoanthidae,1,1
+127,Laetmonice,4,2
+127,Ascidia,49,4
+127,Sponges,383,NA
+128,Northern shrimp,104,21
+128,Pandalus (sobrecop,46,51
+128,Hake,178,1
+128,Neptunea despecta,26,1
+128,Colus,3,1
+128,Ceramaster,16,2
+128,Leptychaster artic,3,1
+128,Ophiura sarsii,2,1
+128,Sea anemones,44,1
+128,Hormathiidae,212,8
+128,Periphyllidae,4890,4
+128,Laetmonice,2,1
+128,Sponges,45,1
+129,Northern shrimp,645,107
+129,Pandalus (sobrecop,7,3
+129,Myctophum punctatu,57,6
+129,Snow crab,1360,2
+129,Benthopectinidae,1,1
+129,Ceramaster,105,1
+129,Leptychaster artic,3,1
+129,Ophiura sarsii,1,1
+129,Sea anemones,541,2
+129,Hormathiidae,23,4
+129,Anthoptilum,52,1
+129,Pennatula,3,1
+129,Periphyllidae,25000,35
+129,Sabellidae,4,3
+129,Ascidia,4,3
+130,Northern shrimp,3870,308
+130,Pandalus (sobrecop,39,11
+130,Gonatus fabricii,9,1
+130,Leptychaster artic,5,2
+130,Sea anemones,60,1
+130,Hormathiidae,144,16
+130,Duva florida,29,1
+130,Periphyllidae,24000,26
+130,Sabellidae,1,1
+131,Northern shrimp,5200,355
+131,Pandalus (sobrecop,14,4
+131,Myctophum punctatu,37,4
+131,Pontophilus norveg,3,1
+131,Gonatus fabricii,12,2
+131,Todarodes sagittat,377,1
+131,Astarte,6,3
+131,Bivalves,1,1
+131,Echinasteridae,2,1
+131,Hormathiidae,168,26
+131,Cnidarians,312,3
+131,Periphyllidae,9170,16
+131,Ascidia,28,3
+131,Radiella hemisphae,5,1
+132,Maulisia mauli,21,1
+132,Myctophum punctatu,53,4
+132,Northern shrimp,1990,147
+132,Acanthephyra purpu,304,45
+132,Acanthephyra,129,21
+132,Pasiphaea,558,44
+132,Pontophilus norveg,3,1
+132,Sergestes arcticus,7,5
+132,Sergia robusta,3,1
+132,Gonatus fabricii,8,1
+132,Astarte,1,1
+132,Ophiomusium lymani,2,1
+132,Hormathiidae,97,4
+132,Heteropolypus,264,53
+132,Nephtheidae,2,1
+132,Flabellum,64,12
+132,Atollidae,840,15
+132,Periphyllidae,3160,6
+132,Ascidia,24,4
+132,Terebratulina sept,1,1
+132,Sponges,31,1
+133,Gonatus fabricii,5,1
+133,Pasiphaea,632,28
+133,Acanthephyra pelag,156,23
+133,Acanthephyra purpu,18,2
+133,Acanthephyra,90,13
+133,Gnathophausia zoea,5,3
+133,Pandalus propinquu,13,2
+133,Polycheles nanus,22,3
+133,Sergestes arcticus,2,1
+133,Sergia robusta,4,1
+133,Dumbo octopus,1550,1
+133,Astarte,7,2
+133,Mediaster bairdi,8,2
+133,Zoroaster fulgens,40,2
+133,Brittle star,2,1
+133,Gorgonocephalidae,8,2
+133,Ophiomusium lymani,3,1
+133,Phormosoma placent,372,20
+133,Hormathiidae,11,15
+133,Heteropolypus,20,4
+133,Duva florida,22,6
+133,Acanella arbuscula,8,3
+133,Acanthogorgia,102,3
+133,Anthoptilum,16,2
+133,Atollidae,4610,51
+133,Periphyllidae,2200,8
+133,Ascidia,92,8
+133,Sponges,31,NA
+133,Tetillidae,20,1
+133,Astrophorida,8560,NA
+133,Stryphnus sp.,14600,23
+133,Geodiidae,6800,2
+134,Acanthephyra pelag,135,18
+134,Acanthephyra purpu,44,6
+134,Acanthephyra,23,3
+134,Gnathophausia zoea,6,3
+134,Parapasiphae sulca,10,2
+134,Pasiphaea,1752,62
+134,Gnathophausia giga,6,1
+134,Gonatus fabricii,89,2
+134,Phormosoma placent,4,1
+134,Duva florida,10,1
+134,Nephtheidae,5,1
+134,Acanella arbuscula,3,1
+134,Atollidae,3140,24
+134,Periphyllidae,1380,5
+134,Sponges,78,3
+134,Stryphnus sp.,15,1
+134,Tentorium,7,1
+135,Gonatus fabricii,20,3
+135,Pasiphaea,150,8
+135,Acanthephyra pelag,149,22
+135,Parapasiphae sulca,8,2
+135,Acanthephyra purpu,6,1
+135,Acanthephyra,29,4
+135,Benthesicymus bart,11,1
+135,Notostomus,40,1
+135,Sergestes arcticus,1,1
+135,Mediaster bairdi,24,2
+135,Phormosoma placent,372,28
+135,Echinothuriidae,172,1
+135,Sea anemones,405,1
+135,Acanthogorgia,21,1
+135,Jellyfish,1,1
+135,Atollidae,5020,56
+135,Periphyllidae,2610,8
+136,Bajacalifornia meg,25,1
+136,Acanthephyra pelag,292,42
+136,Acanthephyra purpu,104,15
+136,Acanthephyra,7,1
+136,Gnathophausia zoea,7,4
+136,Parapasiphae sulca,12,3
+136,Pasiphaea,162,8
+136,Polycheles nanus,20,4
+136,Crustacean,5,1
+136,Gonatus fabricii,10,1
+136,Buccinum,7,1
+136,Astarte,4,1
+136,Bathybiaster vexil,43,1
+136,Mediaster bairdi,33,4
+136,Zoroaster fulgens,3,1
+136,Sea stars,21,1
+136,Brittle star,2,1
+136,Phormosoma placent,254,28
+136,Heteropolypus,4,1
+136,Duva florida,6,1
+136,Acanthogorgia,14,1
+136,Flabellum,6,1
+136,Atollidae,2220,24
+136,Periphyllidae,3890,11
+136,Ascidia,9,1
+136,Astrophorida,9,NA
+137,Oneirodes eschrich,320,1
+137,Acanthephyra pelag,240,35
+137,Acanthephyra purpu,92,14
+137,Acanthephyra,23,3
+137,Gnathophausia zoea,6,2
+137,Parapasiphae sulca,10,2
+137,Pasiphaea,235,11
+137,Polycheles nanus,34,5
+137,Gnathophausia giga,5,1
+137,Gonatus fabricii,121,4
+137,Chiroteuthis veran,300,2
+137,Ceramaster,12,1
+137,Ophiomusium lymani,8,1
+137,Phormosoma placent,94,14
+137,Duva florida,7,2
+137,Nephtheidae,3,2
+137,Funiculina quadran,3,1
+137,Flabellum,12,1
+137,Atollidae,2810,21
+137,Periphyllidae,2050,5
+137,Didemnidae,11,3
+137,Stryphnus sp.,1206,12
+138,Northern shrimp,2170,153
+138,Pandalus (sobrecop,32,10
+138,Astarte,7,3
+138,Sea stars,18,1
+138,Leptychaster artic,2,1
+138,Ophiopholis,1,1
+138,Ophiura sarsii,2,2
+138,Sea anemones,100,1
+138,Hormathiidae,283,38
+138,Duva florida,11,2
+138,Nephtheidae,3,1
+138,Anthoptilum,3,1
+138,Periphyllidae,4560,6
+138,Pycnogonida,1,1
+138,Ascidia,1,1
+139,Pandalus (sobrecop,3,3
+139,Echinasteridae,1,1
+139,Leptychaster artic,3,1
+139,Mediaster bairdi,30,2
+139,Ophiopholis,3,6
+139,Hormathiidae,1,1
+139,Periphyllidae,810,1
+139,Laetmonice,9,5
+139,Ascidia,14,3
+139,Sponges,179,12
+140,Northern shrimp,3,1
+140,Pandalus (sobrecop,16,12
+140,Hippasteria phrygi,1062,1
+140,Sea anemones,47,3
+140,Periphyllidae,399,1
+140,Sponges,613,2
+141,Pandalus (sobrecop,3,3
+141,Echinasteridae,4,2
+141,Periphyllidae,368,1
+141,Laetmonice,2,1
+141,Sponges,103,8
+142,Pandalus (sobrecop,1,1
+142,Pterasteridae,6,1
+142,Echinasteridae,6,2
+142,Leptychaster artic,7,3
+142,Ophiopholis,2,3
+142,Ophiura sarsii,2,3
+142,Duva florida,11,1
+142,Epizoanthidae,1,1
+142,Periphyllidae,880,1
+142,Ascidia,2,1
+142,Sponges,540,13
+142,Polymastiidae,75,2
+143,Ceramaster,18,1
+143,Echinasteridae,6,3
+143,Leptychaster artic,2,1
+143,Ophiopholis,4,5
+143,Ophiura sarsii,1,1
+143,Periphyllidae,650,1
+143,Ascidia,3,1
+143,Sponges,138,3
+144,Northern shrimp,67,11
+144,Pandalus (sobrecop,13,6
+144,Ceramaster,12,1
+144,Ophiopholis,1,1
+144,Hormathiidae,8,1
+144,Duva florida,19,1
+144,Periphyllidae,1390,1
+144,Laetmonice,3,1
+144,Sabellidae,1,1
+144,Ascidia,10,1
+144,Sponges,32,NA
+145,Northern shrimp,63,9
+145,Pandalus (sobrecop,8,7
+145,Chionoecetes,1,1
+145,Paguridae,41,1
+145,Sea anemones,541,5
+145,Hormathiidae,149,6
+145,Periphyllidae,5040,6
+145,Laetmonice,2,1
+145,Sponges,491,NA
+145,Polymastiidae,52,1
+146,Northern shrimp,58,8
+146,Pandalus (sobrecop,29,32
+146,Squid,58,1
+146,Ceramaster,21,2
+146,Sea anemones,3,1
+146,Hormathiidae,49,2
+146,Periphyllidae,12000,16
+146,Polychaetes,1,1
+146,Sponges,242,NA
+147,Northern shrimp,102,14
+147,Pandalus (sobrecop,7,6
+147,Leptychaster artic,4,1
+147,Sea anemones,179,3
+147,Hormathiidae,7,2
+147,Brachiopod,5,1
+147,Sponges,299,4
+147,Polymastiidae,15,1
+148,Eglefino,152,1
+148,Leptychaster artic,8,3
+148,Ophiopholis,2,1
+148,Sea anemones,12,1
+148,Duva florida,129,2
+148,Laetmonice,2,1
+148,Ascidia,7,1
+148,Astrophorida,81,NA
+149,Sea stars,2,1
+149,Benthopectinidae,17,1
+149,Ceramaster,7,2
+149,Echinasteridae,2,1
+149,Leptychaster artic,43,12
+149,Ophiopholis,1,1
+149,Periphyllidae,290,1
+149,Sponges,64,NA
+150,Ophiopholis,1,2
+150,Periphyllidae,1360,1
+150,Sponges,23,NA
+151,Eglefino,527,1
+151,Squid,89,1
+151,Leptychaster artic,5,1
+151,Ophiopholis,4,3
+151,Didemnidae,3,1
+151,Sponges,91,2
+151,Tetillidae,6,1
+152,Leptychaster artic,5,1
+152,Ophiopholis,1,2
+152,Duva florida,55,1
+152,Laetmonice,3,1
+152,Astrophorida,303,NA
+152,Polymastiidae,9,1
+153,Pandalus (sobrecop,6,5
+153,Gonatus fabricii,12,1
+153,Leptychaster artic,10,2
+153,Sea anemones,322,9
+153,Hormathiidae,169,1
+153,Duva florida,27,1
+153,Periphyllidae,1010,1
+153,Polychaetes,1,1
+153,Sponges,173,NA
+154,Northern shrimp,16,4
+154,Neptunea despecta,48,1
+154,Nudibranch,2,1
+154,Benthopectinidae,1,1
+154,Ceramaster,43,4
+154,Leptychaster artic,8,4
+154,Ophiura sarsii,6,13
+154,Hormathiidae,22,2
+154,Duva florida,6,1
+154,Periphyllidae,7645,8
+154,Sponges,386,NA
+155,Northern shrimp,10,3
+155,Pandalus (sobrecop,8,10
+155,Benthopectinidae,3,1
+155,Leptychaster artic,11,3
+155,Ophiura sarsii,1,1
+155,Hormathiidae,417,9
+155,Periphyllidae,6750,9
+155,Laetmonice,2,1
+155,Ascidia,3,1
+155,Sponges,16,NA
+156,Northern shrimp,13,4
+156,Pandalus (sobrecop,7,4
+156,Benthopectinidae,5,3
+156,Ceramaster,39,7
+156,Leptychaster artic,4,2
+156,Ophiopholis,1,1
+156,Ophiura sarsii,1,2
+156,Periphyllidae,66,1
+156,Sponges,51,NA
+157,Northern shrimp,243,58
+157,Pandalus (sobrecop,21,21
+157,Ceramaster,22,2
+157,Echinasteridae,2,1
+157,Hippasteria phrygi,848,1
+157,Leptychaster artic,5,2
+157,Hormathiidae,388,9
+157,Periphyllidae,22200,26
+157,Sponges,10,2
+158,Northern shrimp,327,49
+158,Pandalus (sobrecop,8,3
+158,Periphyllidae,9600,8
+158,Ceramaster,6,1
+158,Benthopectinidae,3,2
+158,Ophiopholis,2,2
+158,Hormathiidae,13,1
+158,Sponges,34,1
+158,Ascidia,4,1
+159,Northern shrimp,820,92
+159,Pandalus (sobrecop,2,1
+159,Neptunea despecta,10,1
+159,Astarte,1,1
+159,Benthopectinidae,18,6
+159,Ceramaster,32,2
+159,Leptychaster artic,17,6
+159,Sea anemones,50,1
+159,Hormathiidae,60,7
+159,stephanauge nexili,145,8
+159,Periphyllidae,23800,32
+159,Ascidia,20,1
+159,Sponges,146,NA
+159,Sipuncula,2,1
+160,Northern shrimp,127,21
+160,Pandalus (sobrecop,6,4
+160,Benthopectinidae,12,5
+160,Ceramaster,13,1
+160,Echinasteridae,1,1
+160,Brittle star,1,1
+160,Ophiopholis,1,1
+160,Ophiura sarsii,1,1
+160,Hormathiidae,32,3
+160,Periphyllidae,12400,15
+160,Ascidia,1,1
+160,Sponges,20,NA
+161,Northern shrimp,45,8
+161,Pandalus (sobrecop,3,2
+161,Leptychaster artic,11,3
+161,Ophiopholis,1,1
+161,Sea anemones,6,1
+161,Hormathiidae,122,4
+161,Anthoptilum,276,1
+161,Periphyllidae,2430,4
+161,Sponges,1,1
+162,Northern shrimp,554,112
+162,Pandalus (sobrecop,5,3
+162,Myctophum punctatu,31,4
+162,Pontophilus norveg,2,1
+162,Ceramaster,14,1
+162,Leptychaster artic,5,2
+162,Lophaster furcifer,2,1
+162,Brittle star,1,1
+162,Hormathiidae,52,6
+162,stephanauge nexili,135,8
+162,Halipteris finmarc,106,2
+162,Periphyllidae,5910,6
+163,Northern shrimp,975,120
+163,Pandalus (sobrecop,5,2
+163,Myctophum punctatu,18,2
+163,Isopodo,6,4
+163,Brittle star,1,1
+163,Ophiopholis,2,2
+163,Ophiura sarsii,1,2
+163,Sea anemones,343,1
+163,Hormathiidae,16,4
+163,Halipteris finmarc,31,1
+163,Periphyllidae,12600,18
+163,Laetmonice,2,1
+163,Sponges,2050,NA
+164,Northern shrimp,7710,297
+164,Gonatus fabricii,37,5
+164,Myctophum punctatu,22,2
+164,Lebbeus polaris,1,1
+164,Echinasteridae,2,2
+164,Lophaster furcifer,10,4
+164,Ophiopholis,1,1
+164,Hormathiidae,33,4
+164,Periphyllidae,3430,5
+164,Sponges,30,NA
+165,Northern shrimp,3595,351
+165,Pandalus (sobrecop,14,4
+165,Gonatus fabricii,12,1
+165,Benthopectinidae,4,3
+165,Ceramaster,14,2
+165,Duva florida,32,1
+165,Periphyllidae,12150,12
+165,Radiella hemisphae,5,1
+166,Northern shrimp,356,57
+166,Pandalus (sobrecop,1,4
+166,Gonatus fabricii,8,1
+166,Myctophum punctatu,61,7
+166,Mysida,1,1
+166,Benthopectinidae,1,1
+166,Leptychaster artic,2,1
+166,Ophiura sarsii,1,1
+166,Hormathiidae,11,1
+166,Periphyllidae,790,1
+166,Laetmonice,1,1
+166,Sponges,7,2
+167,Northern shrimp,7,2
+167,Ceramaster,5,1
+167,Periphyllidae,7255,10
+167,Polychaetes,1,2
+167,Laetmonice,8,7
+167,Ascidia,9,2
+167,Sponges,20,NA
+167,Tetillidae,2,1
+168,Northern shrimp,267,28
+168,Spirontocaris,1,1
+168,Lebbeus polaris,1,1
+168,Ceramaster,21,4
+168,Echinasteridae,3,1
+168,Hippasteria phrygi,58,1
+168,Leptychaster artic,4,1
+168,Stephanasterias al,2,1
+168,Ophiura sarsii,3,2
+168,Polymastiidae,25,2
+168,Sponges,28,6
+169,Northern shrimp,3,1
+169,Ceramaster,29,3
+169,Leptychaster artic,7,3
+169,Ophiopholis,1,1
+169,Ophiura sarsii,5,6
+169,Sea anemones,6,1
+169,Periphyllidae,1860,3
+169,Sponges,317,3
+170,Northern shrimp,6,1
+170,Periphyllidae,2520,2
+170,Sponges,61,NA
+170,Ophiopholis,1,1
+171,Pontophilus norveg,2,1
+171,Ceramaster,12,1
+171,Echinasteridae,7,3
+171,Leptychaster artic,6,3
+171,Stephanasterias al,1,1
+171,Ophiopholis,12,19
+171,Ophiura sarsii,1,1
+171,Laetmonice,7,3
+171,Sponges,2192,NA
+171,Tentorium,1,1
+171,Radiella hemisphae,54,11
+172,Ophiopholis,5,12
+172,Ophiura sarsii,2,2
+172,Sponges,136,2
+172,Polymastiidae,7,1
+173,Echinasteridae,1,1
+173,Ophiopholis,1,1
+173,Sponges,21,NA
+173,Polymastiidae,27,2
+174,Gonatus fabricii,5,1
+174,Benthopectinidae,3,1
+174,Ceramaster,21,4
+174,Leptychaster artic,10,7
+174,Ophiopholis,1,1
+174,Periphyllidae,7810,6
+174,Laetmonice,8,6
+174,Sponges,15,NA
+175,Ophiopholis,2,3
+175,Ascidia,6,2
+175,Polymastiidae,27,3
+175,Sponges,60,5
+176,Paguridae,5,1
+176,Ceramaster,46,6
+176,Echinasteridae,6,3
+176,Leptychaster artic,14,4
+176,Periphyllidae,1045,1
+176,Astrophorida,12,NA
+176,Polymastiidae,24,2
+176,Radiella hemisphae,4,1
+177,Northern shrimp,1880,134
+177,Pandalus (sobrecop,8,2
+177,Hyperiid amphipod,2,13
+177,Sepiolidae,8,1
+177,Astarte,5,2
+177,Echinasteridae,2,1
+177,Ophiura sarsii,1,1
+177,Sea anemones,943,1
+177,Hormathiidae,141,14
+177,Periphyllidae,14600,16
+177,Laetmonice,3,1
+177,Sponges,27,NA
+177,Radiella hemisphae,2,1
+178,Gonatus fabricii,44,3
+178,Myctophum punctatu,2,1
+178,Acanthephyra pelag,986,154
+178,Acanthephyra purpu,98,15
+178,Acanthephyra,497,45
+178,Euphausiacea,2,1
+178,Gnathophausia zoea,3,2
+178,Parapasiphae sulca,63,17
+178,Pasiphaea,174,11
+178,Polycheles nanus,3,1
+178,Sergestes arcticus,2,2
+178,Hyperiid amphipod,2,1
+178,Nudibranch,2,1
+178,Hippasteria phrygi,395,1
+178,Brittle star,1,1
+178,Phormosoma placent,105,4
+178,Sea anemones,310,1
+178,Hormathiidae,46,1
+178,Acanella arbuscula,1,1
+178,Halipteris finmarc,83,2
+178,Jellyfish,2,2
+178,Atollidae,530,9
+178,Periphyllidae,5730,10
+178,Laetmonice,12,1
+178,Ascidia,47,7
+178,Sponges,40,NA
+179,Northern shrimp,137,11
+179,Gonatus fabricii,220,25
+179,Melanonus zugmayer,26,2
+179,Acanthephyra pelag,847,123
+179,Parapasiphae sulca,3,1
+179,Pasiphaea,2090,264
+179,Acanthephyra purpu,93,15
+179,Acanthephyra,271,45
+179,Euphausiacea,2,1
+179,Gennadas,2,1
+179,Gnathophausia zoea,2,2
+179,Sabinea hystrix,5,1
+179,Sergestes arcticus,53,37
+179,Sergia robusta,18,8
+179,Mysida,1,3
+179,Squid,19,1
+179,Astarte,12,4
+179,Psilaster andromed,4,2
+179,Brittle star,1,2
+179,Phormosoma placent,4,1
+179,Hormathiidae,226,10
+179,Heteropolypus,446,740
+179,Duva florida,34,3
+179,Anthoptilum,763,58
+179,Halipteris finmarc,15,1
+179,Flabellum,94,15
+179,Jellyfish,12,3
+179,Atollidae,1290,23
+179,Periphyllidae,3490,15
+179,Hydrozoans,1,1
+179,Polychaetes,1,1
+179,Polynoidae,1,1
+179,Ascidia,44,14
+179,Didemnidae,47,5
+179,Sponges,60,1
+179,Crinoid,1,1
+179,Chaetognaths,1,2
+180,Northern shrimp,8840,352
+180,Pandalus (sobrecop,27,5
+180,Isopodo,2,1
+180,Gastropoda,2,1
+180,Astarte,10,3
+180,Bivalves,1,1
+180,Echinasteridae,9,4
+180,Leptychaster artic,3,1
+180,Lophaster furcifer,5,1
+180,Pterasteridae,4,1
+180,Ophiopholis,3,3
+180,Brittle star,6,4
+180,Hormathiidae,91,15
+180,Heteropolypus,4,2
+180,Duva florida,468,18
+180,Nephtheidae,29,3
+180,Periphyllidae,12100,13
+180,Didemnidae,28,3
+180,Ascidia,23,4
+180,Terebratulina sept,5,2
+180,Sponges,1175,2
+180,Radiella hemisphae,10,1
+181,Northern shrimp,134,28
+181,Molluscs,1,1
+181,Neptunea despecta,23,1
+181,Benthopectinidae,23,8
+181,Leptychaster artic,7,5
+181,Ophiopholis,1,1
+181,Ophiura sarsii,4,5
+181,Sea anemones,250,1
+181,Hormathiidae,603,17
+181,Duva florida,70,5
+181,Anthoptilum,6,2
+181,Periphyllidae,2520,6
+181,Ascidia,7,3
+181,Sponges,76,NA
+182,Northern shrimp,955,151
+182,Pandalus (sobrecop,26,8
+182,Cirripeda,1,5
+182,Benthopectinidae,10,3
+182,Ceramaster,15,1
+182,Leptychaster artic,10,4
+182,Brittle star,1,1
+182,Ophiopholis,1,1
+182,Ophiura sarsii,1,2
+182,Hormathiidae,293,16
+182,Anthoptilum,97,5
+182,Periphyllidae,10075,12
+182,Hydrozoans,89,3
+182,Ascidia,3,1
+182,Bryozoa,1,1
+182,Sponges,22,NA
+183,Northern shrimp,5580,477
+183,Pandalus (sobrecop,4,2
+183,Myctophum punctatu,153,20
+183,Euphausiacea,3,3
+183,Pasiphaea multiden,5,3
+183,Sergestes arcticus,276,192
+183,Sergia robusta,41,17
+183,Pontophilus norveg,2,1
+183,Buccinum,3,1
+183,Neptunea despecta,10,1
+183,Astarte,8,4
+183,Echinasteridae,2,1
+183,Pterasteridae,4,1
+183,Poraniidae,8,1
+183,Brittle star,1,3
+183,Ophiopholis,2,2
+183,Brisaster fragilis,5,NA
+183,Sea anemones,3,2
+183,Hormathiidae,606,54
+183,Heteropolypus,4,2
+183,Duva florida,2,1
+183,Nephtheidae,2,1
+183,Acanella arbuscula,22,3
+183,Radicipes,1,1
+183,Flabellum,38,7
+183,Stauropathes arcti,58,1
+183,Atollidae,250,3
+183,Periphyllidae,3560,5
+183,Ascidia,5,4
+183,Sponges,238,NA
+183,Polymastiidae,70,1
