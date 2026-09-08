@@ -1,7 +1,7 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<img src="/home/danielruzzante/iVME-taxa_logo.png" width="30%" align="left" style="margin-right: 15px">
+<img src="resources/iVME-taxa_logo.png" width="30%" align="left" style="margin-right: 15px">
 
 # IVME-TAXA
 <em></em>
@@ -39,7 +39,17 @@
 
 ## Overview
 
+### **(ENG)**
 
+**iVME-taxa** contains the analysis code supporting the study *"Integrating DNA-Based and Morphological Approaches Improves Biodiversity Characterization of Vulnerable Marine Ecosystems at Flemish Cap."* This repository provides the workflows used to combine classical taxonomy with DNA barcoding (COI and 16S) for the identification of marine invertebrates collected during a 2022 survey of the Flemish Cap, an isolated seamount hosting several Vulnerable Marine Ecosystem (VME) indicator species that remain poorly documented.
+
+The pipeline integrates morphological classification of 434 specimens with molecular assignment against public reference databases, addressing the persistent gaps and inconsistencies in invertebrate DNA barcode records — particularly for understudied deep-sea taxa such as Porifera and Cnidaria. By reconciling morphological and molecular evidence, this project improved taxonomic resolution for 140 specimens and expanded the formal species-level inventory from 88 to 123 (or 133, including open-nomenclature assignments), generating reference data intended to support non-invasive, DNA-based monitoring and conservation strategies for vulnerable deep-sea habitats.
+
+### **(ESP)**
+
+**iVME-taxa** contiene el código de análisis empleado en el estudio *"Integrating DNA-Based and Morphological Approaches Improves Biodiversity Characterization of Vulnerable Marine Ecosystems at Flemish Cap."* Este repositorio reúne los flujos de trabajo utilizados para combinar taxonomía clásica con barcoding de ADN (COI y 16S) en la identificación de invertebrados marinos recolectados durante una campaña de muestreo en 2022 en Flemish Cap, un monte submarino aislado que alberga varias especies indicadoras de Ecosistemas Marinos Vulnerables (VME) todavía poco documentadas.
+
+El pipeline integra la clasificación morfológica de 434 especímenes con la asignación molecular frente a bases de datos públicas de referencia, abordando las brechas e inconsistencias persistentes en los registros de barcodes de ADN para invertebrados, particularmente en taxones de aguas profundas poco estudiados como Porifera y Cnidaria. Al conciliar la evidencia morfológica y molecular, este proyecto mejoró la resolución taxonómica en 140 especímenes y amplió el inventario formal a nivel de especie de 88 a 123 taxones (o 133, incluyendo asignaciones de nomenclatura abierta), generando datos de referencia orientados a apoyar estrategias de monitoreo y conservación no invasivas basadas en ADN para hábitats vulnerables de aguas profundas.
 
 ---
 
@@ -122,7 +132,7 @@
 
 This project requires the following dependencies:
 
-- **Programming Language:** unknown
+- **Programming Language:** R
 
 ### Installation
 
