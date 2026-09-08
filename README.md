@@ -3,14 +3,14 @@
 <!-- HEADER STYLE: COMPACT -->
 <img src="resources/iVME-taxa_logo.png" width="30%" align="left" style="margin-right: 15px">
 
-# IVME-TAXA
+# iVME-TAXA
 <em></em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/mparrondo/ivme-taxa?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=29B7C5" alt="license">
-<img src="https://img.shields.io/github/last-commit/mparrondo/ivme-taxa?style=for-the-badge&logo=git&logoColor=white&color=29B7C5" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/mparrondo/ivme-taxa?style=for-the-badge&color=29B7C5" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/mparrondo/ivme-taxa?style=for-the-badge&color=29B7C5" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/mparrondo/ivme-taxa?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=#29B7C5" alt="license">
+<img src="https://img.shields.io/github/last-commit/mparrondo/ivme-taxa?style=for-the-badge&logo=git&logoColor=white&color=#29B7C5" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/mparrondo/ivme-taxa?style=for-the-badge&color=#29B7C5" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/mparrondo/ivme-taxa?style=for-the-badge&color=#29B7C5" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
