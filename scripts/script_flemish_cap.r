@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # Integrating DNA-Based and Morphological Approaches Improves Biodiversity
 # Charactization of Vulnerable Marine Ecosystems at Flemish Cap
 # 
@@ -7,26 +7,65 @@
 #
 # Input: Supplementary Table S1 + curated reference-sequence count table
 # Entrada: Tabla suplementaria S1 + tabla curada de conteos de referencias
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 
-# Install and load packages ----------------------------------------------------
-# Instalar y cargar paquetes ------------------------------------------------- #
-required_packages <- c("tidyverse", 
-                       "treemapify", 
-                       "patchwork",
-                       "ggokabeito",
-                       "scales",
-                       "DiagrammeR",
-                       "DiagrammeRsvg",
-                       "rsvg")
+# Set up reproducible R environment --------------------------------------------
 
-packages_to_install <- required_packages[!required_packages %in% 
-                                           installed.packages()[, "Package"]]
+# This project uses the renv package to manage the R environment and ensure
+# reproducibility. The required packages and their specific versions are
+# recorded in renv.lock.
 
-if (length(packages_to_install) > 0) {
-  install.packages(packages_to_install,
-                   repos = "https://cloud.r-project.org")
-}
+# Configuración de un entorno R reproducible --------------------------------- #
+
+# Este proyecto utiliza el paquete renv para gestionar el entorno R y garantizar
+# la reproducibilidad. Los paquetes necesarios y sus versiones específicas se
+# registran en el archivo renv.lock.
+
+install.packages("renv")
+
+renv::init()
+
+renv::install(c("tidyverse",
+                "treemapify",
+                "patchwork",
+                "ggokabeito",
+                "scales",
+                "DiagrammeR",
+                "DiagrammeRsvg",
+                "rsvg"))
+
+renv::snapshot()
+
+# Load packages ----------------------------------------------------------------
+
+# This analysis uses the renv package to manage the R environment and ensure
+# reproducibility. The required packages and their specific versions are recorded
+# in renv.lock. When reproducing the analysis, run renv::restore() to install the
+# package versions used in the original analysis.
+
+# The code below loads the packages required for the analysis. Package
+# installation is managed by renv and is therefore not performed directly within
+# the analysis script.
+
+# Restore the reproducible R environment before running the analysis.
+# Run this command once when setting up the project:
+# renv::restore()
+
+# Cargar paquetes ------------------------------------------------------------ #
+
+# Este análisis utiliza el paquete renv para gestionar el entorno de R y
+# garantizar la reproducibilidad. Los paquetes necesarios y sus versiones
+# específicas se registran en el archivo renv.lock. Para reproducir el análisis,
+# se debe ejecutar renv::restore(), que instalará las versiones de los paquetes
+# utilizadas en el análisis original.
+
+# El código que sigue carga los paquetes necesarios para realizar el análisis.
+# La instalación de los paquetes es gestionada por renv y, por tanto, no se
+# realiza directamente dentro del script de análisis.
+
+# Restablece el entorno R reproducible antes de ejecutar el análisis.
+# Ejecuta este comando una vez al configurar el proyecto:
+# renv::restore()
 
 suppressPackageStartupMessages({
 library(tidyverse)
@@ -41,7 +80,10 @@ library(rsvg)
 
 # Paths ------------------------------------------------------------------------
 # Rutas ---------------------------------------------------------------------- #
-# Run from the project root / Ejecutar desde el directorio raíz del proyecto.
+
+# Run from the project root
+# Ejecutar desde el directorio raíz del proyecto.
+
 input_taxonomy <- "data/raw/suppl_table_s1.csv"
 input_reference_counts <- "data/processed/reference_sequence_counts.csv"
 tables_dir <- "results/tables"
@@ -66,7 +108,8 @@ minimum_n_heatmap <- 6
 # Functions --------------------------------------------------------------------
 # Funciones ------------------------------------------------------------------ #
 
-# Helper for explicit denominators / Función para denominadores explícitos
+# Helper for explicit denominators
+# Función para denominadores explícitos
 make_summary_row <- function(metric, value, analysis_unit, denominator, denominator_label) {
   tibble(metric = metric,
          value = as.integer(value),
@@ -89,7 +132,9 @@ phylum_labeller <- function(x) {
 
 # Import data ------------------------------------------------------------------
 # Importación de datos ------------------------------------------------------- #
-# Comma decimals are converted to numeric values / Convierte comas decimales.
+
+# Comma decimals are converted to numeric values
+# Convierte comas decimales.
 dataset <- read_csv(input_taxonomy,
                     na = c("",
                            "NA"),
@@ -115,8 +160,10 @@ reference_counts <- read_csv(input_reference_counts,
 
 # Derived variables ------------------------------------------------------------
 # Variables derivadas -------------------------------------------------------- #
+
 # Classify the finest available initial taxonomic level.
 # Clasificar el nivel taxonómico inicial más fino disponible.
+
 # Taxonomic resolution is assigned from the most specific populated rank.
 # La resolución se asigna desde el rango taxonómico más específico disponible.
 dataset <- dataset %>%
@@ -137,8 +184,10 @@ dataset <- dataset %>%
          technical_coi = if_else(!is.na(accession_coi), "Success", "Failure"),
          technical_16s = if_else(!is.na(accession_16s), "Success", "Failure"))
 
-# One row per initial taxon / Una fila por taxón inicial.
-# Available has priority, followed by LTR / Disponible tiene prioridad, luego LTR.
+# One row per initial taxon. // Una fila por taxón inicial.
+
+# Available has priority, followed by LTR.
+# Disponible tiene prioridad, luego LTR.
 taxon_dataset <- dataset %>%
   group_by(tax) %>%
   summarise(tax_phylum = first(na.omit(tax_phylum),
@@ -165,7 +214,9 @@ taxon_dataset <- dataset %>%
                                TRUE ~ "0"),
             .groups = "drop")
 
-# Join reference-sequence counts / Unir los conteos de secuencias de referencia
+# Join reference-sequence counts
+# Unir los conteos de secuencias de referencia
+
 # reference_counts has repeated taxa because it contains one row per voucher.
 # reference_counts contiene taxones repetidos porque tiene una fila por voucher.
 reference_counts_taxon <- reference_counts %>%
@@ -186,7 +237,7 @@ taxon_dataset <- taxon_dataset %>%
 rm(reference_counts_taxon,
    reference_counts)
 
-# Taxa eligible for database searches / Taxones elegibles para búsquedas
+# Taxa eligible for database searches // Taxones elegibles para búsquedas
 # Only initial species are included; LTR categories are excluded.
 # Solo se incluyen especies iniciales; se excluyen las categorías LTR.
 species_dataset <- taxon_dataset %>%
@@ -194,7 +245,7 @@ species_dataset <- taxon_dataset %>%
   select(-ltr_summary_category)
 
 # Summary table ----------------------------------------------------------------
-# Tabla resumen
+# Tabla resumen -------------------------------------------------------------- #
 # Taxon-level availability percentages use unique initial taxa as denominator.
 # Los porcentajes de disponibilidad usan taxones iniciales únicos como denominador.
 n_specimens <- n_distinct(dataset$voucher_id)
@@ -206,6 +257,7 @@ n_initial_ltr_family_higher <- sum(taxon_dataset$ltr_summary_category == "Family
                                    na.rm = TRUE)
 n_initial_unassigned <- sum(taxon_dataset$ltr_summary_category == "Unassigned",
                             na.rm = TRUE)
+
 # Total low-taxonomic-resolution categories.
 # Total de categorías con baja resolución taxonómica.
 n_initial_ltr_total <- n_initial_ltr_genus +
@@ -217,7 +269,7 @@ n_reviewed <- sum(!is.na(dataset$rev_tax) & dataset$rev_tax != "")
 n_coi_success <- sum(dataset$technical_coi == "Success")
 n_16s_success <- sum(dataset$technical_16s == "Success")
 
-# "Available" means code 1 / "Disponible" significa código 1.
+# "Available" means code 1 // "Disponible" significa código 1.
 # Availability is calculated only among initial species.
 # La disponibilidad se calcula solo sobre especies iniciales.
 n_initial_species <- nrow(species_dataset)
@@ -340,7 +392,8 @@ summary_table <- bind_rows(make_summary_row("specimens",
 #           file.path(tables_dir,
 #                     "summary_counts_percentages.csv"))
 
-print(summary_table, n = Inf)
+print(summary_table,
+      n = Inf)
 
 rm(species_dataset,
    n_specimens,
@@ -365,8 +418,10 @@ rm(species_dataset,
 # Figure 2: initial taxonomy ---------------------------------------------------
 # Figura 2: taxonomía inicial ------------------------------------------------ #
 taxa_by_phylum_class <- taxon_dataset %>%
-  mutate(tax_phylum = replace_na(tax_phylum, "Unclassified"),
-         tax_class = replace_na(tax_class, "Low Taxonomic Resolution")) %>%
+  mutate(tax_phylum = replace_na(tax_phylum,
+                                 "Unclassified"),
+         tax_class = replace_na(tax_class,
+                                "Low Taxonomic Resolution")) %>%
   count(tax_phylum,
         tax_class,
         name = "n")
@@ -418,6 +473,7 @@ rm(taxa_by_phylum_class)
 
 # Singleton analysis -----------------------------------------------------------
 # Análisis de singletons ----------------------------------------------------- #
+
 # A singleton has exactly one sequence in the database (count == 1).
 # Un singleton tiene exactamente una secuencia en la base de datos (conteo == 1).
 singletons_long <- taxon_dataset %>%
@@ -675,7 +731,8 @@ fig_04 <- ggplot(availability_long,
   labs(x = "Sequence database",
        y = "Percentage of initial taxa",
        fill = "Reference availability",
-       caption = "(*) Phyla represented by a small number of specimens; results should be interpreted descriptively.") +
+       caption = "(*) Phyla represented by a small number of specimens; ",
+       "results should be interpreted descriptively.") +
   theme_classic() +
   theme(text = element_text(size = 10),
         axis.text.x = element_text(angle = 45,
@@ -800,6 +857,7 @@ rm(bins)
 
 # Assignment summaries ---------------------------------------------------------
 # Resúmenes de asignación ---------------------------------------------------- #
+
 # Match percentages use only successful specimens as denominator.
 # Los porcentajes de match usan solo especímenes con éxito técnico.
 assignment_long <- dataset %>%
@@ -844,14 +902,18 @@ assignment_overall <- assignment_long %>%
                               assignment_percent >= assignment_threshold,
                             na.rm = TRUE),
             # At least one technically successful sequence
+            # Al menos una secuencia técnicamente exitosa
             sequence_any = any(sequence_available,
                                na.rm = TRUE),
             .groups = "drop") %>%
          # Match in at least one marker
+         # Match en al menos un marcador
   mutate(match_any = match_coi | match_16s,
          # Match in both markers
+         # Match en ambos marcadores
          both_markers = match_coi & match_16s,
          # One mutually exclusive category per specimen
+         # Una categoria mutuamente excluyente por especimen
          assignment_category = case_when(both_markers ~ "Match across both markers",
                                          match_coi ~ "Match in COI only",
                                          match_16s ~ "Match in 16S only",
@@ -875,7 +937,9 @@ print(assignment_successful_summary, n = Inf)
 
 # Figure S1: assignment outcomes -----------------------------------------------
 # Figura S1: resultados de asignación ---------------------------------------- #
-# Panel A: overall assignment outcomes
+
+## Panel A: overall assignment outcomes ----------------------------------------
+## Panel A: resultados generales de la asignación ---------------------------- #
 assignment_overall_plot_data <- assignment_overall %>%
   count(assignment_category,
         name = "n") %>%
@@ -911,9 +975,10 @@ fig_s01_a <- ggplot(assignment_overall_plot_data,
   guides(fill = guide_legend(nrow = 2,
                              byrow = TRUE))
 
-fig_s01_a 
+print(fig_s01_a) 
 
-# Panel B: assignment outcomes by reference database
+## Panel B: assignment outcomes by reference database --------------------------
+## Panel B: resultados de la asignación por base de datos de referencia ------ #
 assignment_plot_data <- crossing(assignment_long,
                                  threshold = assignment_threshold) %>%
   mutate(assignment_result = case_when(!sequence_available ~ "No sequence",
@@ -955,9 +1020,9 @@ fig_s01_b <- ggplot(assignment_plot_data,
   guides(fill = guide_legend(nrow = 2,
                              byrow = TRUE))
 
-fig_s01_b
+print(fig_s01_b)
 
-# Combine panels A and B
+## Panel A + B -----------------------------------------------------------------
 fig_s01 <- (fig_s01_a + fig_s01_b) +
   patchwork::plot_annotation(tag_levels = "A") &
   theme(plot.tag = element_text(face = "bold",
@@ -965,7 +1030,6 @@ fig_s01 <- (fig_s01_a + fig_s01_b) +
 
 print(fig_s01)
 
-# Save Figure S1
 ggsave(file.path(figures_dir,
                  "Figure_S01_assignment_outcomes.png"),
        fig_s01,
@@ -976,7 +1040,6 @@ ggsave(file.path(figures_dir,
 
 # Table 1: Overall technical success summary -----------------------------------
 # Tabla 1: Resumen global de éxito técnico ----------------------------------- #
-
 success_overall <- dataset %>%
   group_by(technical_coi,
            technical_16s) %>%
@@ -1013,6 +1076,7 @@ write_csv(success_overall,
 # Figura 5: Exito de amplificación y secuenciación --------------------------- #
 
 # Amplification and sequencing success by phylum
+# Éxito de amplificación y secuenciación por filo
 success_by_group <- dataset %>%
   mutate(tax_phylum = replace_na(tax_phylum,
                                  "Unclassified")) %>%
@@ -1036,6 +1100,7 @@ success_by_group <- dataset %>%
                                technical_16s == "Failure" ~ "COI ✗ / 16S ✗"))
 
 # Set order of amplification outcomes
+# Establecer el orden de los resultados de amplificación
 success_by_group$outcome <- factor(success_by_group$outcome,
                                    levels = c("COI ✓ / 16S ✓",
                                               "COI ✓ / 16S ✗",
@@ -1050,7 +1115,6 @@ print(success_by_group,
 #           file.path(tables_dir,
 #                     "amplification_sequencing_success_by_phylum.csv"))
 
-# Plot
 fig_05 <- ggplot(success_by_group,
                  aes(x = tax_phylum,
                      y = percentage,
@@ -1071,7 +1135,8 @@ fig_05 <- ggplot(success_by_group,
                        order = c(3, 5, 7, 6)) +
   labs(x = "Phylum",
        y = "Percentage of specimens",
-       caption = "(*) Phyla represented by a small number of specimens; results should be interpreted descriptively.") +
+       caption = "(*) Phyla represented by a small number of specimens; ",
+       "results should be interpreted descriptively.") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45,
                                    hjust = 1),
@@ -1079,7 +1144,6 @@ fig_05 <- ggplot(success_by_group,
 
 print(fig_05)
 
-# Save figure
 ggsave(filename = file.path(figures_dir,
                             "Figure_05_amplification_sequencing_success.png"),
        plot = fig_05,
@@ -1089,7 +1153,8 @@ ggsave(filename = file.path(figures_dir,
        dpi = 300,
        bg = "white")
 
-# Figure 6 ---------------------------------------------------------------------
+# Figure 6: Heatmap ------------------------------------------------------------
+# Figura 6: Heatmap ---------------------------------------------------------- #
 
 # Technical and assignment dataset.
 # Dataset para el análisis técnico y de asignación.
@@ -1223,7 +1288,8 @@ taxonomic_success_by_order <- taxonomic_success_ds %>%
           analysis_order)
 
 print(taxonomic_success_by_order,
-      width = Inf, n = Inf)
+      width = Inf,
+      n = Inf)
 
 # write_csv(taxonomic_success_by_order,
 #           file.path(tables_dir,
@@ -1231,7 +1297,6 @@ print(taxonomic_success_by_order,
 
 # Small orders retained for descriptive reporting only.
 # Órdenes pequeños conservados solo para reporte descriptivo.
-
 small_orders <- taxonomic_success_by_order %>%
   filter(n_total < minimum_n_heatmap) %>%
   mutate(reporting_note = "Small sample size: descriptive only") %>%
@@ -1247,10 +1312,9 @@ print(small_orders)
 
 # Reversed sequential Okabe-Ito-inspired gradient.
 # Gradiente secuencial invertido inspirado en Okabe-Ito.
-
-okabe_ito_heatmap_colours <- c("#F0E442",  # Yellow: low success / éxito bajo
-                               "#E69F00",  # Orange: intermediate-low success
-                               "#009E73")  # Bluish green: high success / éxito alto
+okabe_ito_heatmap_colours <- c("#F0E442", # Yellow: low success / éxito bajo
+                               "#E69F00", # Orange: intermediate-low success
+                               "#009E73") # Bluish green: high success / éxito alto
 
 # Heatmap data for orders with n >= 6.
 # Datos del heatmap para órdenes con n >= 6.
@@ -1351,54 +1415,8 @@ ggsave(filename = file.path(figures_dir,
        dpi = 300,
        bg = "white")
 
-# Figure 7: --------------------------------------------------------------------
-taxonomic_resolution_audit <- dataset %>%
-  mutate(any_success = technical_coi == "Success" |
-           technical_16s == "Success",
-         initial_rank = stringr::str_to_title(initial_taxonomic_level),
-         final_rank = case_when(!is.na(final_tax) &
-                                  final_tax != "" ~ "Species",
-                                !is.na(final_tax_genus) &
-                                  final_tax_genus != "" ~ "Genus",
-                                !is.na(final_tax_family) &
-                                  final_tax_family != "" ~ "Family",
-                                !is.na(final_tax_order) &
-                                  final_tax_order != "" ~ "Order",
-                                !is.na(final_tax_class) &
-                                  final_tax_class != "" ~ "Class",
-                                !is.na(final_tax_phylum) &
-                                  final_tax_phylum != "" ~ "Phylum",
-                                TRUE ~ NA_character_),
-         analysis_status = case_when(!any_success ~ "Excluded: no successful marker",
-                                     is.na(initial_rank) ~ "Excluded: missing initial resolution",
-                                     is.na(final_rank) ~ "Excluded: no final assignment",
-                                     is.na(tax_phylum) ~ "Excluded: missing initial phylum",
-                                     TRUE ~ "Included in Figure 7")) %>%
-  count(analysis_status, 
-        name = "n_specimens") %>%
-  mutate(percentage_total = round(100 * n_specimens / sum(n_specimens), 1))
-
-print(taxonomic_resolution_audit)
-
-exclusion_audit_by_phylum <- dataset %>%
-  mutate(any_success = technical_coi == "Success" |
-           technical_16s == "Success",
-         analysis_status = case_when(!any_success ~ "No successful marker",
-                                     TRUE ~ "At least one successful marker")) %>%
-  count(tax_phylum,
-        analysis_status,
-        name = "n_specimens") %>%
-  group_by(tax_phylum) %>%
-  mutate(total_phylum = sum(n_specimens),
-         percentage = round(100 * n_specimens / total_phylum, 1)) %>%
-  ungroup() %>%
-  arrange(tax_phylum,
-          desc(analysis_status))
-
-print(exclusion_audit_by_phylum)
-
-write_csv(exclusion_audit_by_phylum,
-  "results/tables/technical_exclusion_audit_by_phylum.csv")
+# Figure 7: Matrix -------------------------------------------------------------
+# Figura 7: Matriz ----------------------------------------------------------- #
 
 tax_levels <- c("Phylum",
                 "Class",
@@ -1430,11 +1448,14 @@ taxonomic_resolution_data <- dataset %>%
                                         TRUE ~ NA_character_),
          initial_rank = stringr::str_to_title(initial_taxonomic_level),
          # ------------------------------------------------------------------- #
+         # Note: Identify final labels that are "sp."
          # Ojo! Identificar etiquetas finales que son "sp."
          #
+         # Examples to be excluded from Species:
          # Ejemplos que deben excluirse de Species:
          #   "Geodia sp."
          #
+         # Examples that still count as Species:
          # Ejemplos que siguen contando como Species:
          #   "Henricia cf. lisa ingolfi"
          #   "Colus aff. islandicus"
@@ -1442,6 +1463,9 @@ taxonomic_resolution_data <- dataset %>%
          final_is_sp = stringr::str_detect(final_tax,
                                            stringr::regex("\\bsp\\.?($|\\s)|\\bspp\\.?($|\\s)",
                                                           ignore_case = TRUE)),
+         # A species assignment must contain at least two components:
+         # genus + specific epithet. This rule also allows for *cf.* and *aff.*
+         #
          # Una asignación a especie debe contener, como mínimo, dos componentes:
          # género + epíteto específico. Esta regla también admite cf. y aff.
          final_has_multiple_terms = stringr::str_detect(stringr::str_trim(final_tax),
@@ -1450,6 +1474,7 @@ taxonomic_resolution_data <- dataset %>%
            final_tax != "" &
            !final_is_sp &
            final_has_multiple_terms,
+         # Result of the integrative taxonomic assessment.
          # Resultado de la evaluación taxonómica integrativa.
          final_rank = case_when(final_is_species ~ "Species",
                                 !is.na(final_tax_genus) &
@@ -1513,9 +1538,13 @@ dataset %>%
   print(n = Inf,
         width = Inf)
 
+# Analytical sample size verification:
 # Comprobación del tamaño de muestra analítico:
 nrow(taxonomic_resolution_data)
 
+# The initial identification calculated from the tax_* columns must match
+# initial_taxonomic_level, except in justified cases or where values are missing.
+#
 # La identificación inicial calculada desde las columnas tax_* debe coincidir
 # con initial_taxonomic_level, salvo casos justificados o valores faltantes.
 initial_rank_qc <- taxonomic_resolution_data %>%
@@ -1527,6 +1556,10 @@ initial_rank_qc <- taxonomic_resolution_data %>%
 
 print(initial_rank_qc)
 
+# Check which types of final_tax are being classified as Species.
+# If final_tax can contain genus, family, or order identifications,
+# an explicit final_taxonomic_level variable will need to be created before proceeding.
+#
 # Revisar qué tipos de final_tax se están clasificando como Species.
 # Si final_tax puede contener identificaciones de género, familia u orden,
 # habrá que crear una variable final_taxonomic_level explícita antes de continuar.
@@ -1538,6 +1571,7 @@ final_tax_qc <- taxonomic_resolution_data %>%
 
 print(final_tax_qc)
 
+# Summary table
 # Tabla resumen
 resolution_summary_overall <- taxonomic_resolution_data %>%
   summarise(n_specimens = n(),
@@ -1558,6 +1592,7 @@ print(resolution_summary_overall)
 #   "results/tables/taxonomic_resolution_summary_overall.csv"
 # )
 
+# Summary table by phylum
 # Tabla resumen por filo
 resolution_summary_by_phylum <- taxonomic_resolution_data %>%
   group_by(initial_phylum) %>%
@@ -1585,6 +1620,10 @@ print(resolution_summary_by_phylum,
 # write_csv(resolution_summary_by_phylum,
 #           "results/tables/taxonomic_resolution_summary_by_phylum.csv")
 
+# General matrix (transition)
+# Each row corresponds to an initial level of morphological identification.
+# Percentages are calculated within each row; therefore, each row sums to 100%.
+#
 # Matriz general (transicion)
 # Cada fila corresponde a un nivel de identificación morfológica inicial.
 # Los porcentajes se calculan dentro de cada fila; por tanto, cada fila suma 100%.
@@ -1660,6 +1699,7 @@ ggsave(plot = fig_07a,
        height = 155,
        dpi = 300)
 
+# Function for row-wise matrices
 # Funcion para las matrices por filo
 make_phylum_transition_plot <- function(data, phylum_name) {
   phylum_matrix <- data %>%
@@ -1731,7 +1771,6 @@ make_phylum_transition_plot <- function(data, phylum_name) {
 }
 
 ## Figure 7b -------------------------------------------------------------------
-
 phyla <- taxonomic_resolution_data %>%
   distinct(initial_phylum) %>%
   pull(initial_phylum) %>%
@@ -1757,7 +1796,8 @@ phylum_plots <- purrr::imap(phylum_plots,
 fig_07b <- wrap_plots(phylum_plots,
                       ncol = 3) +
   plot_annotation(title = "Taxonomic resolution transitions by phylum",
-                  caption = paste0("(*) Phyla represented by a small number of specimens; results should be interpreted descriptively."),
+                  caption = paste0("(*) Phyla represented by a small number of specimens; ",
+                  "results should be interpreted descriptively."),
                   theme = theme(plot.title = element_text(hjust = 0.5,
                                                           face = "bold",
                                                           size = 14),
@@ -1775,12 +1815,11 @@ ggsave(plot = fig_07b,
        height = 230,
        dpi = 300)
 
-# Export
-walk2(phylum_results,
-      names(phylum_results),
-      ~ write_csv(.x$data,
-                  paste0("results/tables/taxonomic_resolution_transition_",
-                         stringr::str_to_lower(.y), ".csv")))
+# walk2(phylum_results,
+#       names(phylum_results),
+#       ~ write_csv(.x$data,
+#                   paste0("results/tables/taxonomic_resolution_transition_",
+#                          stringr::str_to_lower(.y), ".csv")))
 
 fig_07b_single <- patchwork::wrap_elements(full = patchwork::patchworkGrob(fig_07b))
 
@@ -1802,23 +1841,32 @@ ggsave(plot = fig_07,
        dpi = 300)
 
 # Integrative Taxonomy ---------------------------------------------------------
+# Taxonomía integrativa ------------------------------------------------------ #
 
+# Parameters
 # Parámetros
 reference_columns <- c("gb_coi",
                        "bold_coi",
                        "gb_16s")
 
+# Helper functions ----------------------------------------------------------- #
 # Funciones auxiliares ------------------------------------------------------- #
+
+# Standardizes taxonomic labels for species comparisons.
+# Removes differences in capitalization and spacing, as well as cf./aff. qualifiers.
+#
 # Estandariza etiquetas taxonómicas para comparaciones de especie.
 # Elimina diferencias de mayúsculas, espacios y los calificadores cf./aff.
 #
-# Ejemplos:
+# Examples / Ejemplos:
 # "Anthoptilum grandiflorum"     -> "anthoptilum grandiflorum"
 # "Anthoptilum cf. grandiflorum" -> "anthoptilum grandiflorum"
 # "Colus aff. islandicus"        -> "colus islandicus"
 #
+# Does not remove "sp.", because "Henricia sp." does not correspond to a
+# specific species.
+#
 # No elimina "sp.", porque "Henricia sp." no equivale a una especie concreta.
-# ---------------------------------------------------------------------------- #
 normalise_taxon_label <- function(x) {
   x %>%
     str_to_lower() %>%
@@ -1826,7 +1874,7 @@ normalise_taxon_label <- function(x) {
     str_replace_all("\\b(cf|aff)\\.?", "") %>%
     str_squish()
 }
-
+# Extracts the first term from a taxonomic label, interpreted as the genus.
 # Extrae el primer término de una etiqueta taxonómica, interpretado como género.
 #
 # Ejemplos:
@@ -1840,18 +1888,26 @@ extract_genus <- function(x) {
     str_extract("^[[:alpha:]-]+")
 }
 
+# Prepare the congruence dataset
 # Preparar el dataset de congruencia
 congruence_data <- dataset %>%
-  # ------------------------------------------------------------------------ #
+  # -------------------------------------------------------------------------- #
+  # Technical status:
+  # A specimen is considered to have usable molecular information if
+  # COI, 16S, or both markers were technically successful.
+  #
   # Estado técnico:
   # Se considera que un espécimen tiene información molecular utilizable si
   # COI, 16S o ambos marcadores tuvieron éxito técnico.
-  # ------------------------------------------------------------------------ #
+  # -------------------------------------------------------------------------- #
   mutate(any_marker_success = technical_coi == "Success" | technical_16s == "Success",
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Standardization of taxonomic labels:
+         # The original labels are retained, and comparable versions are created.
+         #
          # Estandarización de etiquetas taxonómicas:
          # Se mantienen las etiquetas originales y se crean versiones comparables.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          tax_norm = normalise_taxon_label(tax),
          blast_coi_norm = normalise_taxon_label(blast_coi_id),
          bold_coi_norm = normalise_taxon_label(bold_coi_id),
@@ -1860,11 +1916,17 @@ congruence_data <- dataset %>%
          blast_coi_genus = extract_genus(blast_coi_id),
          bold_coi_genus = extract_genus(bold_coi_id),
          blast_16s_genus = extract_genus(blast_16s_id),
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Identification of molecular hits meeting the ≥97% threshold. 
+         # Both the percentage of identity and a non-empty taxonomic identifier
+         # are required. This prevents counting a percentage without an
+         # assignment as a useful hit.
+         #
          # Identificación de hits moleculares que cumplen el umbral ≥97%.
-         # Se exige tanto el porcentaje de identidad como un identificador taxonómico
-         # no vacío. Esto evita contar un porcentaje sin asignación como un hit útil.
-         # ------------------------------------------------------------------------ #
+         # Se exige tanto el porcentaje de identidad como un identificador
+         # taxonómico no vacío. Esto evita contar un porcentaje sin asignación
+         # como un hit útil.
+         # ------------------------------------------------------------------- #
          blast_coi_high_hit = !is.na(blast_coi_ap) &
            blast_coi_ap >= assignment_threshold & 
            !is.na(blast_coi_id) &
@@ -1880,16 +1942,21 @@ congruence_data <- dataset %>%
          any_high_hit = blast_coi_high_hit |
            bold_coi_high_hit |
            blast_16s_high_hit,
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Reference availability:
          # Disponibilidad de referencias:
          #
-         # "1"   = existe referencia para ese marcador/base de datos.
-         # "0"   = no existe referencia.
-         # "LTR" = no se pudo evaluar a especie debido a la baja resolución inicial.
+         # "1" = a reference exists for that marker/database.
+         #     = existe referencia para ese marcador/base de datos.
+         # "0" = no reference exists.    
+         #     = no existe referencia.
+         # "LTR" = species-level assessment was not possible due to low initial resolution. 
+         #       = no se pudo evaluar a especie debido a la baja resolución inicial.
          #
+         # This availability applies only to initial species-level identifications.
          # Esta disponibilidad se interpreta únicamente para identificaciones
          # iniciales a nivel de especie.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          gb_coi_available = gb_coi == "1",
          bold_coi_available = bold_coi == "1",
          gb_16s_available = gb_16s == "1",
@@ -1908,12 +1975,18 @@ congruence_data <- dataset %>%
                                         "No reference available for any marker",
                                       TRUE ~
                                         "Reference availability unknown"),
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Species-level congruence:
+         # Evaluated only if the initial morphological identification was to the
+         # species level. 
+         # A match with any of the markers/databases is sufficient to consider
+         # the record congruent.
+         #
          # Congruencia a nivel de especie:
          # Solo se evalúa si la identificación morfológica inicial fue a especie.
          # Una coincidencia con cualquiera de los marcadores/bases de datos es
          # suficiente para considerar el registro congruente.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          species_match_blast_coi = blast_coi_high_hit &
            coalesce(tax_norm == blast_coi_norm, FALSE),
          species_match_bold_coi = bold_coi_high_hit &
@@ -1923,16 +1996,23 @@ congruence_data <- dataset %>%
          species_congruent = species_match_blast_coi |
            species_match_bold_coi |
            species_match_blast_16s,
-         # ------------------------------------------------------------------------ #
-         # Congruencia a nivel de género:
-         # Solo se evalúa si la identificación inicial está a género. Por ejemplo:
+         # ------------------------------------------------------------------- #
+         # Congruence at the genus level:
+         # Evaluated only if the initial identification is at the genus level.
+         # For example:
          #
-         # Inicial:      Henricia sp.
+         # Congruencia a nivel de género:
+         # Solo se evalúa si la identificación inicial está a género.
+         # Por ejemplo:
+         #
+         # Initial:      Henricia sp. 
          # Molecular:    Henricia sanguinolenta
-         # Resultado:    congruente a género.
+         # Result:       congruent at the genus level. // congruente a género
+         #
+         # This does not mean the identification is confirmed at the species level.
          #
          # Esto no significa que la identificación esté confirmada a especie.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          genus_match_blast_coi = blast_coi_high_hit &
            coalesce(tax_genus_norm == blast_coi_genus, FALSE),
          genus_match_bold_coi = bold_coi_high_hit &
@@ -1942,12 +2022,18 @@ congruence_data <- dataset %>%
          genus_congruent = genus_match_blast_coi |
            genus_match_bold_coi |
            genus_match_blast_16s,
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Initial molecular congruence status:
+         # For identifications at the family, order, class, or phylum level,
+         # congruence is not automatically evaluated because the dataset does not
+         # contain the hierarchical taxonomy of each molecular hit retrieved from
+         # GenBank/BOLD.
+         #
          # Estado de congruencia inicial-molecular:
          # Para identificaciones a familia, orden, clase o filo, la congruencia no
          # se evalúa automáticamente porque el dataset no contiene la taxonomía
          # jerárquica de cada hit molecular recuperado de GenBank/BOLD.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          congruence_status = case_when(!any_marker_success ~
                                          "Excluded: no successful marker",
                                        initial_rank == "Species" &
@@ -1977,7 +2063,17 @@ congruence_data <- dataset %>%
                                          !any_high_hit ~
                                          "LTR; no molecular match at ≥97% identity",
                                        TRUE ~ "Not assessed"),
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Category for taxonomic review:
+         #
+         # "Potential new genetic record" is assigned only when:
+         # - The initial identification was at the species level. 
+         # - No reference existed in BOLD COI, GenBank COI, or GenBank 16S. 
+         # - No marker produced a hit ≥97%. 
+         #
+         # An LTR is not automatically classified as a potential new genetic record
+         # because reference availability could not be assessed at the species level.
+         #
          # Categoría para revisión taxonómica:
          #
          # "Potential new genetic record" se asigna solo cuando:
@@ -1987,18 +2083,22 @@ congruence_data <- dataset %>%
          #
          # Un LTR no se clasifica automáticamente como potencial registro genético
          # nuevo, porque la disponibilidad de referencia no pudo evaluarse a especie.
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
          review_category = case_when(!any_marker_success ~
                                        "Excluded: no successful marker",
-                                     congruence_status == "Congruent at species level" ~ "Congruent",
+                                     congruence_status == "Congruent at species level" ~
+                                       "Congruent",
                                      congruence_status == "Congruent at genus level" ~
                                        "Genus-level concordance: requires expert assessment",
-                                     congruence_status == "Discordant molecular assignment" ~ "Pending verification",
+                                     congruence_status == "Discordant molecular assignment" ~
+                                       "Pending verification",
                                      congruence_status == "No molecular match at ≥97% identity" &
-                                       reference_status == "No reference available for any marker" ~ "Potential new genetic record",
+                                       reference_status == "No reference available for any marker" ~
+                                       "Potential new genetic record",
                                      congruence_status == "No molecular match at ≥97% identity" &
                                        reference_status %in% c("Reference available for at least one marker",
-                                                               "Reference availability unknown") ~ "Pending verification",
+                                                               "Reference availability unknown") ~
+                                       "Pending verification",
                                      initial_rank %in% c("Family",
                                                          "Order",
                                                          "Class",
@@ -2006,11 +2106,17 @@ congruence_data <- dataset %>%
                                        "Low taxonomic resolution: requires expert assessment",
                                      TRUE ~ "Pending verification"),
          
-         # ------------------------------------------------------------------------ #
+         # ------------------------------------------------------------------- #
+         # Final assignment status:
+         # This variable is for audit and manual review purposes only. It should
+         # not be used to define congruence, because final_tax incorporates the
+         # molecular evidence.
+         #
          # Estado de asignación final:
-         # Esta variable es solo para auditoría y revisión manual. No debe emplearse
-         # para definir congruencia, porque final_tax incorpora la evidencia molecular.
-         # ------------------------------------------------------------------------ #
+         # Esta variable es solo para auditoría y revisión manual. No debe
+         # emplearse para definir congruencia, porque final_tax incorpora la
+         # evidencia molecular.
+         # ------------------------------------------------------------------- #
          final_assignment_available = !is.na(final_tax) &
            final_tax != "") %>%
   dplyr::select(voucher_id,
@@ -2111,6 +2217,7 @@ rm(congruence_summary,
    potential_new_records)
 
 # Figure S2: Decision-Tree -----------------------------------------------------
+# Figura S2: Árbol de decisión ----------------------------------------------- #
 fig_s02 <- grViz("digraph decision_tree {
 
   graph [
@@ -2282,7 +2389,7 @@ fig_s02 <- grViz("digraph decision_tree {
 }
 ")
 
-fig_s02
+print(fig_s02)
 
 fig_s02_svg <- DiagrammeRsvg::export_svg(fig_s02)
 
@@ -2292,28 +2399,34 @@ rsvg::rsvg_png(charToRaw(fig_s02_svg),
                height = 3000)
 
 taxa_inventory <- dataset %>%
-  mutate(# Normalizar etiquetas taxonómicas para evitar diferencias por espacios.
-        initial_taxon = na_if(str_squish(tax), ""),
-        final_taxon = na_if(str_squish(final_tax), ""),
-        # Detecta expresiones como "Genus sp.", "Genus spp." o "Genus sp. CLADE A"
-        final_is_sp = str_detect(coalesce(final_tax, ""),
+  # Normalize taxonomic tags to avoid differences caused by spaces.
+  # Normalizar etiquetas taxonómicas para evitar diferencias por espacios.
+  mutate(initial_taxon = na_if(str_squish(tax), ""),
+         final_taxon = na_if(str_squish(final_tax), ""),
+         # Detects expressions such as “Genus sp.”, “Genus spp.”
+         # Detecta expresiones como "Genus sp.", "Genus spp."
+         final_is_sp = str_detect(coalesce(final_tax, ""),
                                       regex("\\bsp\\.?($|\\s)|\\bspp\\.?($|\\s)",
                                             ignore_case = TRUE)),
+         # A species identification must contain at least two terms.
          # Una identificación de especie debe contener al menos dos términos.
-         # Ejemplos válidos:
+         # Valid examples: // Ejemplos válidos:
          # Anthoptilum grandiflorum
          # Henricia cf. lisa ingolfi
          # Colus aff. islandicus
          final_has_multiple_terms = str_detect(str_squish(coalesce(final_tax, "")),
                                                "\\S+\\s+\\S+"),
+         # Open Nomenclature Classification.
          # Clasificación de nomenclatura abierta.
          final_open_nomenclature = str_detect(coalesce(final_tax, ""),
                                               regex("\\b(cf|aff)\\.?(\\s|$)",
                                                     ignore_case = TRUE)),
+         # Open nomenclature in initial identification.
          # Nomenclatura abierta en la identificación inicial.
          initial_open_nomenclature = str_detect(coalesce(tax, ""),
                                                 regex("\\b(cf|aff)\\.?(\\s|$)",
                                                       ignore_case = TRUE)),
+         # Corrected final range.
          # Rango final corregido.
          final_taxonomic_level = case_when(!is.na(final_tax) &
                                              final_tax != "" &
@@ -2330,6 +2443,8 @@ taxa_inventory <- dataset %>%
                                            !is.na(final_tax_phylum) &
                                              final_tax_phylum != "" ~ "Phylum",
                                            TRUE ~ NA_character_),
+         # LTR includes all initial identifications below the species level:
+         # genus, family, order, class, or phylum.
          # LTR incluye todas las identificaciones iniciales inferiores a especie:
          # género, familia, orden, clase o filo.
          initial_ltr = initial_taxonomic_level %in% c("Genus",
@@ -2337,21 +2452,26 @@ taxa_inventory <- dataset %>%
                                                       "Order",
                                                       "Class",
                                                       "Phylum"),
+        # Technical success: at least one marker sequenced and deposited. 
         # Éxito técnico: al menos un marcador secuenciado y depositado.
         technical_success = coalesce(!is.na(accession_coi) | !is.na(accession_16s),
                                      FALSE),
+        # Technical success broken down by marker.
         # Éxito técnico separado por marcador.
         technical_success_coi = coalesce(!is.na(accession_coi),
                                          FALSE),
         technical_success_16s = coalesce(!is.na(accession_16s),
                                          FALSE),
+        # Taxonomic resolution, including open nomenclature.
         # Resolución taxonómica, incluyendo nomenclatura abierta.
         final_resolved_to_species = coalesce(final_taxonomic_level == "Species",
                                              FALSE),
+        # Strict taxonomic resolution, excluding cf. and aff.
         # Resolución taxonómica estricta, excluyendo cf. y aff.
         final_resolved_to_strict_species = coalesce(final_taxonomic_level == "Species" &
                                                       !final_open_nomenclature,
                                                     FALSE),
+        # Integrated result: technical success versus taxonomic resolution.
         # Resultado integrado: éxito técnico frente a resolución taxonómica.
         integrative_outcome = case_when(technical_success &
                                           final_resolved_to_strict_species ~
@@ -2369,9 +2489,11 @@ taxa_inventory <- dataset %>%
                                           !final_resolved_to_species ~
                                           "No study sequence and no species-level resolution",
                                         TRUE ~ "Other / check record"),
-         # Existencia de, como mínimo, una secuencia producida en este estudio.
+        # Existence of at least one sequence produced in this study. 
+        # Existencia de, como mínimo, una secuencia producida en este estudio.
          has_study_sequence = !is.na(accession_coi) | !is.na(accession_16s),
-         # Existencia de referencias públicas para la identificación morfológica inicial.
+        # Availability of public references for initial morphological identification.
+        # Existencia de referencias públicas para la identificación morfológica inicial.
          initial_reference_available = gb_coi == "1" |
            bold_coi == "1" |
            gb_16s == "1")
@@ -2449,20 +2571,27 @@ ltr_taxon_resolution <- taxa_inventory %>%
                                                                  !is.na(final_taxon)])),
                                        collapse = "; "),
             .groups = "drop") %>%
+  # Result including *cf.* and *aff.* No technically evaluable specimen was found.
   # Resultado incluyendo cf. y aff. No hubo ningún espécimen técnicamente evaluable
   mutate(ltr_resolution_status = case_when(n_technically_successful == 0 ~
                                              "Not assessable due to technical failure",
+                                           # All technically evaluable specimens were identified to the species level.
                                            # Todos los especímenes técnicamente evaluables llegaron a especie
                                            n_specimens_resolved_to_species == n_technically_successful &
                                              n_technical_failures == 0 ~ "Fully resolved to species level",
+                                           # All evaluable specimens were identified to the species level,
+                                           # but there were technical failures
                                            # Todos los especímenes evaluables llegaron a especie,
                                            # pero hubo fallos técnicos
                                            n_specimens_resolved_to_species == n_technically_successful &
                                              n_technical_failures > 0 ~
                                              "Fully resolved among technically successful specimens; technical failures present",
+                                           # Some evaluable specimens reached the species level,
+                                           # while others did not.
                                            # Algunos evaluables llegaron a especie y otros no
                                            n_specimens_resolved_to_species > 0 ~
                                              "Partially resolved to species level",
+                                           # A technical evaluation was conducted, but none proceeded to the species level.
                                            # Hubo evaluación técnica pero ninguno llegó a especie
                                            TRUE ~ "Unresolved among technically successful specimens"),
          ltr_strict_resolution_status = case_when(n_technically_successful == 0 ~
@@ -2497,6 +2626,7 @@ ltr_taxon_strict_resolution_summary <- ltr_taxon_resolution %>%
 
 print(ltr_taxon_strict_resolution_summary, n = Inf)
 
+# Initial inventory
 # Inventario inicial
 initial_taxa <- taxa_inventory %>%
   filter(!is.na(initial_taxon)) %>%
@@ -2510,6 +2640,7 @@ initial_taxa <- taxa_inventory %>%
             n_specimens = n(),
             .groups = "drop")
 
+# Taxa initially identified at the species level
 # Taxones inicialmente identificados a especie
 initial_species_taxa <- initial_taxa %>%
   filter(initial_taxonomic_level == "Species")
@@ -2521,6 +2652,7 @@ initial_species_summary <- initial_species_taxa %>%
 
 print(initial_species_summary)
 
+# Inventory
 # Inventario final
 final_species_taxa <- taxa_inventory %>%
   filter(final_taxonomic_level == "Species",
@@ -2546,6 +2678,7 @@ final_species_summary <- final_species_taxa %>%
 
 print(final_species_summary)
 
+# Change in inventory at the species level
 # Cambio en el inventario a nivel de especie
 taxonomic_gain_summary <- bind_cols(initial_species_summary,
                                     final_species_summary) %>%
@@ -2556,6 +2689,7 @@ taxonomic_gain_summary <- bind_cols(initial_species_summary,
 print(taxonomic_gain_summary,
       width = Inf)
 
+# Initial availability of references and LTR classification
 # Disponibilidad inicial de referencias y clasificacion LTR
 initial_reference_gap <- initial_taxa %>%
   mutate(reference_gap_status = case_when(initial_ltr ~
@@ -2576,6 +2710,7 @@ initial_reference_gap_summary <- initial_reference_gap %>%
 
 print(initial_reference_gap_summary, n = Inf)
 
+# Breakdown of LTRs by taxonomic rank
 # Desglose de LTR por rango taxonomico
 ltr_category_summary <- initial_taxa %>%
   filter(initial_ltr) %>%
@@ -2584,18 +2719,24 @@ ltr_category_summary <- initial_taxa %>%
   mutate(percentage_of_ltr_categories = round(100 * n_ltr_categories /
                                                 sum(n_ltr_categories), 1))
 
-print(ltr_category_summary, n = Inf)
+print(ltr_category_summary,
+      n = Inf)
 
+# Resolution of LTR cases at the specimen level
 # Resolucion de casos LTR a nivel de especimen
 ltr_resolution_summary <- taxa_inventory %>%
   filter(initial_ltr) %>%
+  # Number of specimens initially LTR.
   # Número de especímenes inicialmente LTR.
   summarise(ltr_specimens = n(),
+            # Number of unique initial categories classified as LTR.
             # Número de categorías iniciales únicas clasificadas como LTR.
             ltr_initial_categories = n_distinct(initial_taxon),
+            # Species-level identification, including *cf.* and *aff.*
             # Resolución a especie incluyendo cf. y aff.
             ltr_specimens_resolved_to_species = sum(final_resolved_to_species,
                                                     na.rm = TRUE),
+            # Resolution strictly to the species level, excluding *cf.* and *aff.*
             # Resolución estricta a especie, excluyendo cf. y aff.
             ltr_specimens_resolved_to_strict_species = sum(final_resolved_to_strict_species,
                                                            na.rm = TRUE),
@@ -2606,6 +2747,7 @@ ltr_resolution_summary <- taxa_inventory %>%
 
 print(ltr_resolution_summary)
 
+# Final species-level taxa derived from initial LTR cases
 # Taxones finales a especie derivados de casos iniciales LTR
 final_species_from_ltr <- taxa_inventory %>%
   filter(initial_ltr,
@@ -2632,6 +2774,7 @@ final_species_from_ltr_summary <- final_species_from_ltr %>%
 
 print(final_species_from_ltr_summary)
 
-# Reproducibility record / Registro de reproducibilidad ------------------------
+# Reproducibility record -------------------------------------------------------
+# Registro de reproducibilidad ----------------------------------------------- #
 write_lines(capture.output(sessionInfo()),
             file.path(tables_dir, "session_info.txt"))
