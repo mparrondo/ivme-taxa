@@ -21,20 +21,21 @@
 # la reproducibilidad. Los paquetes necesarios y sus versiones específicas se
 # registran en el archivo renv.lock.
 
-install.packages("renv")
-
-renv::init()
-
-renv::install(c("tidyverse",
-                "treemapify",
-                "patchwork",
-                "ggokabeito",
-                "scales",
-                "DiagrammeR",
-                "DiagrammeRsvg",
-                "rsvg"))
-
-renv::snapshot()
+# install.packages("renv")
+# library(renv)
+# 
+# renv::init()
+# 
+# renv::install(c("tidyverse",
+#                 "treemapify",
+#                 "patchwork",
+#                 "ggokabeito",
+#                 "scales",
+#                 "DiagrammeR",
+#                 "DiagrammeRsvg",
+#                 "rsvg"))
+# 
+# renv::snapshot()
 
 # Load packages ----------------------------------------------------------------
 
@@ -731,8 +732,7 @@ fig_04 <- ggplot(availability_long,
   labs(x = "Sequence database",
        y = "Percentage of initial taxa",
        fill = "Reference availability",
-       caption = "(*) Phyla represented by a small number of specimens; ",
-       "results should be interpreted descriptively.") +
+       caption = "(*) Phyla represented by a small number of specimens, results should be interpreted descriptively.") +
   theme_classic() +
   theme(text = element_text(size = 10),
         axis.text.x = element_text(angle = 45,
@@ -1135,8 +1135,7 @@ fig_05 <- ggplot(success_by_group,
                        order = c(3, 5, 7, 6)) +
   labs(x = "Phylum",
        y = "Percentage of specimens",
-       caption = "(*) Phyla represented by a small number of specimens; ",
-       "results should be interpreted descriptively.") +
+       caption = "(*) Phyla represented by a small number of specimens, results should be interpreted descriptively.") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45,
                                    hjust = 1),
@@ -1312,7 +1311,7 @@ print(small_orders)
 
 # Reversed sequential Okabe-Ito-inspired gradient.
 # Gradiente secuencial invertido inspirado en Okabe-Ito.
-okabe_ito_heatmap_colours <- c("#F0E442", # Yellow: low success / éxito bajo
+okabe_ito_heatmap_colours <- c("#D55E00", # Vermilion: low success / éxito bajo
                                "#E69F00", # Orange: intermediate-low success
                                "#009E73") # Bluish green: high success / éxito alto
 
