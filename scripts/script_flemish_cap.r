@@ -5,8 +5,8 @@
 # Data Analysis
 # Author: Marina Parrondo Lombardía (parrondomarina@proton.me)
 #
-# Input: Supplementary Table S1 + curated reference-sequence count table
-# Entrada: Tabla suplementaria S1 + tabla curada de conteos de referencias
+# Input: Supplementary Table S3 + curated reference-sequence count table
+# Entrada: Tabla suplementaria S3 + tabla curada de conteos de referencias
 # ============================================================================ #
 
 # Set up reproducible R environment --------------------------------------------
@@ -85,7 +85,7 @@ library(rsvg)
 # Run from the project root
 # Ejecutar desde el directorio raíz del proyecto.
 
-input_taxonomy <- "data/raw/suppl_table_s1.csv"
+input_taxonomy <- "data/raw/suppl_table_s3.csv"
 input_reference_counts <- "data/processed/reference_sequence_counts.csv"
 tables_dir <- "results/tables"
 figures_dir <- "results/figures"

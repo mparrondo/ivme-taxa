@@ -1,8 +1,8 @@
 ## Taxon accumulation / rarefaction-extrapolation curves by depth stratum (Hill q=0)
 ## Author: Laura Casas (lauracasas@iim.csic.es)
 ## Two input files:
-## Supplementary_Table_S2.csv - Trawl, Lowest_Taxon, Weight, Number
-## Supplementary_Table_S3.csv - Trawl, Depth (m)
+## Supplementary_Table_S1.csv - Trawl, Lowest_Taxon, Weight, Number
+## Supplementary_Table_S4.csv - Trawl, Depth (m)
 ## Two sectors: (Shallow strata = Traditional NAFO <=732 m vs Extended Deep-Water/VME >732 m).
 
 library(dplyr)
@@ -17,14 +17,14 @@ data_dir <- "."       # folder containing the two input files
 out_dir  <- "."        # folder where the figure/tables will be written
 depth_cutoff_m <- 732
 ## -----------------------------------------------------------------------
-df    <- read.csv(file.path(data_dir, "Supplementary_Table_S2.csv"), stringsAsFactors = FALSE)
-depth <- read.csv(file.path(data_dir, "Supplementary_Table_S3.csv"), stringsAsFactors = FALSE)
+df    <- read.csv(file.path(data_dir, "Supplementary_Table_S1.csv"), stringsAsFactors = FALSE)
+depth <- read.csv(file.path(data_dir, "Supplementary_Table_S4.csv"), stringsAsFactors = FALSE)
 names(depth) <- c("Trawl", "Depth")   
 
 col_zone <- c("#4292C6", "#08306B")
 
 ## ---------------------------------------------------------------------------
-## 1) Depth stratum assignment (Supplementary_Table_S3 lists all 183 trawls)
+## 1) Depth stratum assignment (Supplementary_Table_S4 lists all 183 trawls)
 ## ---------------------------------------------------------------------------
 depth <- depth %>%
   mutate(stratum = cut(Depth, breaks = c(0, depth_cutoff_m, Inf),
