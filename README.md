@@ -23,18 +23,15 @@
 1. [Table of Contents](#table-of-contents)
 2. [Overview](#overview)
 3. [Data Availability](#data-availability)
-4. [Features](#features)
-5. [Project Structure](#project-structure)
+4. [Project Structure](#project-structure)
     - [Project Index](#project-index)
-6. [Getting Started](#getting-started)
+5. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
-7. [Roadmap](#roadmap)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -70,12 +67,6 @@ Voucher specimens for all collected taxa are deposited at the Institute of Marin
 
 ---
 
-## Features
-
-<code>❯ REPLACE-ME</code>
-
----
-
 ## Project Structure
 
 ```sh
@@ -89,6 +80,7 @@ Voucher specimens for all collected taxa are deposited at the Institute of Marin
     ├── flemish_cap_integrative_taxonomy.Rproj
     └── scripts
         └── rarefraction_by_stratum.R
+        └── script_flemish_cap.R
 ```
 
 ### Project Index
@@ -147,9 +139,19 @@ Voucher specimens for all collected taxa are deposited at the Institute of Marin
 
 ### Prerequisites
 
-This project requires the following dependencies:
+The analysis was developed in R 4.6.1 (2026-06-24; “Happy Hop”) and uses the
+[`renv`](https://rstudio.github.io/renv/) package for reproducible dependency
+management. The exact R package versions and installation sources required to
+run the analysis are recorded in `renv.lock`.
 
-- **Programming Language:** R
+- **R:** version 4.6.1, 64-bit (`x86_64-pc-linux-gnu`).
+- **RStudio Desktop:** recommended, but not required. The project can also be
+  run from a standard R session or the command line.
+- **Internet connection:** required during the initial setup to restore package
+  dependencies with `renv`.
+
+The analysis was developed and tested on 64-bit Manjaro Linux
+(kernel 7.1.13-2-MANJARO).
 
 ### Installation
 
@@ -169,27 +171,33 @@ Build ivme-taxa from the source and install dependencies:
 
 3. **Install the dependencies:**
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+This project uses the `renv` package to provide a reproducible R environment.
+Package versions and sources are recorded in `renv.lock`. After downloading or
+cloning the repository, open `flemish_cap_integrative_taxonomy.Rproj` in RStudio
+(or set the working directory to the project root) and restore the required
+packages by running:
+
+```r
+install.packages("renv")  # Run only if renv is not already installed
+renv::restore()
+```
+
+This step only needs to be performed once when setting up the project.
 
 ### Usage
 
-Run the project with:
+After restoring the R environment, run the analysis scripts from the project
+root directory. Input files are located in the `data/` directory, and the
+required R package versions are managed through `renv`.
 
-echo 'INSERT-RUN-COMMAND-HERE'
+For example, the rarefaction analysis can be run with:
 
-### Testing
+```r
+source("scripts/script_flemish_cap.R")
+```
 
-Ivme-taxa uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-
-## Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+Please ensure that the required input files are available in the expected
+subdirectories before running the script.
 
 ---
 
