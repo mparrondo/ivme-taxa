@@ -24,7 +24,6 @@
 2. [Overview](#overview)
 3. [Data Availability](#data-availability)
 4. [Project Structure](#project-structure)
-    - [Project Index](#project-index)
 5. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -82,56 +81,6 @@ Voucher specimens for all collected taxa are deposited at the Institute of Marin
         └── rarefraction_by_stratum.R
         └── script_flemish_cap.R
 ```
-
-### Project Index
-
-<details open>
-	<summary><b><code>IVME-TAXA/</code></b></summary>
-	<!-- __root__ Submodule -->
-	<details>
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ __root__</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/mparrondo/ivme-taxa/blob/master/flemish_cap_integrative_taxonomy.Rproj'>flemish_cap_integrative_taxonomy.Rproj</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/mparrondo/ivme-taxa/blob/master/LICENSE'>LICENSE</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-	<!-- scripts Submodule -->
-	<details>
-		<summary><b>scripts</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ scripts</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/mparrondo/ivme-taxa/blob/master/scripts/rarefraction_by_stratum.R'>rarefraction_by_stratum.R</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
 
 ---
 
