@@ -799,7 +799,7 @@ bins <- bins %>%
                          tax == "Acanella arbuscula" ~ "concordant",           
                          tax == "Terebratulina septentrionalis" ~ NA,
                          tax == "Ophiopholis aculeata" ~ "multiple",         
-                         tax == "Ceramaster granularis" ~ NA,        
+                         tax == "Ceramaster granularis" ~ "discordant",        
                          tax == "Stomphia coccinea" ~ "multiple",            
                          tax == "Iophon piceum" ~ NA,                
                          tax == "Aristaeopsis edwardsiana" ~ "concordant",     
